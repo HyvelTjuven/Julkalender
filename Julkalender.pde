@@ -24,4 +24,5 @@ void draw() {
   background(0);
   //light();
   drawSnow();
+  drawSnowball(500,500);
 }
