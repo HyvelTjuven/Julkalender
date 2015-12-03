@@ -1,9 +1,8 @@
-void setupsnow() {
+void setupSnow() {
   for (int i = 0; i < quantity; i++) {
     flakeSize[i] = round(random(minFlakeSize, maxFlakeSize));
     xPosition[i] = random(0, width);
     yPosition[i] = random(0, height);
-    direction[i] = round(random(0, 1));
   }
 }
 
@@ -14,7 +13,7 @@ void drawSnow() {
     ellipse(xPosition[i], yPosition[i], flakeSize[i], flakeSize[i]);
 
 
-    yPosition[i] += flakeSize[i] + direction[i]; 
+    yPosition[i] += flakeSize[i]; 
 
     if (xPosition[i] > width + flakeSize[i] || xPosition[i] < -flakeSize[i] || yPosition[i] > height + flakeSize[i]) {
       xPosition[i] = random(0, width);

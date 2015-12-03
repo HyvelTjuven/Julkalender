@@ -2,23 +2,24 @@ int quantity = 300;
 float [] xPosition = new float[quantity];
 float [] yPosition = new float[quantity];
 int [] flakeSize = new int[quantity];
-int [] direction = new int[quantity];
 int minFlakeSize = 1;
 int maxFlakeSize = 5;
+
+PImage myBackground;
 
 void setup() {
 
   fullScreen();
+  myBackground = loadImage("Background1.jpg");
 
-  //frameRate(30);
   noStroke();
-  smooth();
-  setupsnow();
+  setupSnow();
 }
 
 
 void draw() {
-  background(0);
+  background(myBackground);
+  light();
   drawSnow();
   quizBox();
 }
