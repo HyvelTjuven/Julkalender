@@ -12,13 +12,10 @@ PFont font;
 String s = String.valueOf(d);
 
 void setup() {
-
-  size(1920,1080);
+  fullScreen();
+  //size(1920,1080);
   myBackground = loadImage("Background1.jpg");
-
-  noStroke();
   setupSnow();
-  //frameRate(30);
   noStroke();
   font =loadFont("Christmas-100.vlw");
 }
