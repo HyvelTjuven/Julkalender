@@ -1,4 +1,3 @@
-
 int quantity = 300;
 float [] xPosition = new float[quantity];
 float [] yPosition = new float[quantity];
@@ -15,11 +14,11 @@ void setup() {
   noStroke();
   smooth();
   setupsnow();
- 
 }
 
 
 void draw() {
   background(0);
   drawSnow();
+  quizBox();
 }

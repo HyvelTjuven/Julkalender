@@ -1,5 +1,3 @@
-
-
 void setupsnow() {
   for (int i = 0; i < quantity; i++) {
     flakeSize[i] = round(random(minFlakeSize, maxFlakeSize));
@@ -10,7 +8,7 @@ void setupsnow() {
 }
 
 void drawSnow() {
-
+  fill(255);
   for (int i = 0; i < xPosition.length; i++) {
 
     ellipse(xPosition[i], yPosition[i], flakeSize[i], flakeSize[i]);
