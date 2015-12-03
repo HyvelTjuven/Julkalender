@@ -7,6 +7,10 @@ int maxFlakeSize = 5;
 
 PImage myBackground;
 
+int d = day();    // Values from 1 - 31
+PFont font;
+String s = String.valueOf(d);
+
 void setup() {
 
   size(1920,1080);
@@ -16,6 +20,7 @@ void setup() {
   setupSnow();
   //frameRate(30);
   noStroke();
+  font =loadFont("Christmas-100.vlw");
 }
 
 
@@ -25,4 +30,5 @@ void draw() {
   drawSnow();
   quizBox();
   drawSnowball(500,500);
+  drawDate();
 }
