@@ -14,6 +14,8 @@ void setup() {
 
   noStroke();
   setupSnow();
+  //frameRate(30);
+  noStroke();
 }
 
 
@@ -22,4 +24,5 @@ void draw() {
   light();
   drawSnow();
   quizBox();
+  drawSnowball(500,500);
 }
