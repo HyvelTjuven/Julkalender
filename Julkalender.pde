@@ -9,7 +9,7 @@ PImage myBackground;
 
 void setup() {
 
-  fullScreen();
+  size(1920,1080);
   myBackground = loadImage("Background1.jpg");
 
   noStroke();
