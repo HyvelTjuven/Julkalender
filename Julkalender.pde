@@ -1,4 +1,6 @@
 
+PImage christmasBackground;
+
 int quantity = 300;
 float [] xPosition = new float[quantity];
 float [] yPosition = new float[quantity];
@@ -10,12 +12,11 @@ int maxFlakeSize = 5;
 void setup() {
 
   fullScreen();
-
+  christmasBackground = loadImage("Background.png");
   //frameRate(30);
   noStroke();
   smooth();
   setupsnow();
- 
 }
 
 
@@ -23,5 +24,4 @@ void draw() {
   background(0);
   //light();
   drawSnow();
-  
 }
