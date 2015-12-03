@@ -20,7 +20,7 @@ void setup() {
 
 
 void draw() {
-  background(myBackground);
+  image(myBackground, 0, 0, width, height);
   light();
   drawSnow();
   quizBox();
