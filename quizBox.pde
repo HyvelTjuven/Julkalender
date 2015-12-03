@@ -30,7 +30,10 @@ void quizBox() {
   rectMode(CENTER);
   rect(xPos, yPos, 600, 600, 20);
 
+  
+
   textAlign(CENTER);
+  textFont(questionFont);
 
   textSize(20);  
   fill(0);

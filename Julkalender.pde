@@ -11,6 +11,8 @@ int d = day();    // Values from 1 - 31
 PFont font;
 String s = String.valueOf(d);
 
+PFont questionFont;
+
 void setup() {
   fullScreen();
   //size(1920,1080);
@@ -18,6 +20,7 @@ void setup() {
   setupSnow();
   noStroke();
   font =loadFont("Christmas-100.vlw");
+  questionFont = loadFont("ArialMT-48.vlw");
 }
 
 

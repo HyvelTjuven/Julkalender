@@ -11,10 +11,6 @@ void mouseClicked() {
 
     showQuiz = true;
   } else {
-
     showQuiz = false;
-    println("NOT ON SNOWBALL");
   }
-
-  println(showQuiz);
 }
