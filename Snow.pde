@@ -1,3 +1,10 @@
+int quantity = 300;
+float [] xPosition = new float[quantity];
+float [] yPosition = new float[quantity];
+int [] flakeSize = new int[quantity];
+int minFlakeSize = 1;
+int maxFlakeSize = 5;
+
 void setupSnow() {
   for (int i = 0; i < quantity; i++) {
     flakeSize[i] = round(random(minFlakeSize, maxFlakeSize));
