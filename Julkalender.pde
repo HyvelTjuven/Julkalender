@@ -4,8 +4,8 @@ PFont font;
 PFont questionFont;
 
 void setup() {
- // fullScreen();
-  size(1920,1080);
+  fullScreen();
+  //size(1920, 1080);
   myBackground = loadImage("Background1.jpg");
   setupSnow();
   noStroke();
@@ -21,21 +21,22 @@ void draw() {
   daySnowball();
 
   quizBox();
-  drawSnowball(250+300, 750+175);
-  drawSnowball1(395+300, 750+175);
-  drawSnowball2(540+300, 750+175);
-  drawSnowball3(685+300, 750+175);
-  drawSnowball4(830+300, 750+175);
-  drawSnowball5(975+300, 750+175);
-  drawSnowball6(315+300, 645+175);
 
-  drawSnowball7(460+300, 645+175);
-  drawSnowball8(605+300, 645+175);
-  drawSnowball9(755+300, 645+175);
-  drawSnowball10(900+300, 645+175);
+  //drawSnowball(250+300, 750+175);
+  //drawSnowball1(395+300, 750+175);
+  //drawSnowball2(540+300, 750+175);
+  //drawSnowball3(685+300, 750+175);
+  //drawSnowball4(830+300, 750+175);
+  //drawSnowball5(975+300, 750+175);
+  //drawSnowball6(315+300, 645+175);
 
-  drawSnowball11(365+300, 545+175);
-  drawSnowball12(525+300, 545+175);
+  //drawSnowball7(460+300, 645+175);
+  //drawSnowball8(605+300, 645+175);
+  //drawSnowball9(755+300, 645+175);
+  //drawSnowball10(900+300, 645+175);
+
+  //drawSnowball11(365+300, 545+175);
+  //drawSnowball12(525+300, 545+175);
   drawSnowball13(680+300, 545+175);
   drawSnowball14(840+300, 545+175);
 
