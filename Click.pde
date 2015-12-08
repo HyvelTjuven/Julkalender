@@ -1,7 +1,7 @@
 void mouseClicked() {
   
    // DECEMBER 1
-  if (mouseX > 0 && mouseY > 0 && mouseX < 100 && mouseY < 100) {
+  if (mouseX > 250+300 && mouseY > 750+175 && mouseX < 250+300+135 && mouseY < 750+175+125) {
 
     date = "1st of December";
     question = "Sunes Jul aired as a Christmas calendar on SVT 1991, what is the name of Sunes father?";
@@ -14,7 +14,7 @@ void mouseClicked() {
     showQuiz = false;
   }
   // DECEMBER 2
-  if (mouseX > 0 && mouseY > 0 && mouseX < 100 && mouseY < 100) {
+  if (mouseX > 395+300 && mouseY > 750+175 && mouseX < 395+300+135 && mouseY < 750+175+125) {
 
     date = "2nd of December";
     question = "What year did the Swedish Christmas calendar Teskedsgumman air on SVT for the first time?";
@@ -28,7 +28,7 @@ void mouseClicked() {
   }
 
   // DECEMBER 3
-  if (mouseX > 0 && mouseY > 0 && mouseX < 100 && mouseY < 100) {
+  if (mouseX > 540+300 && mouseY > 750+175 && mouseX < 540+300+135 && mouseY < 750+175+125) {
 
     date = "3rd of December";
     question = "What is the name of this years SVT christmas calendar?";
@@ -42,7 +42,7 @@ void mouseClicked() {
   }
   
   //DECEMBER 4
-  if (mouseX > 0 && mouseY > 0 && mouseX < 100 && mouseY < 100) {
+  if (mouseX > 685+300 && mouseY > 750+175 && mouseX < 685+300+135 && mouseY < 750+175+125) {
 
     date = "4th of December";
     question = "What does Advent mean in Swedish?";
@@ -55,7 +55,7 @@ void mouseClicked() {
     showQuiz = false;
   }
   //DECEMBER 5
-  if (mouseX > 0 && mouseY > 0 && mouseX < 100 && mouseY < 100) {
+  if (mouseX > 830+300 && mouseY > 750+175 && mouseX < 830+300+135 && mouseY < 750+175+125) {
 
     date = "5th of December";
     question = "Where was Jesus born?";
@@ -68,7 +68,7 @@ void mouseClicked() {
     showQuiz = false;
   }
   //DECEMBER 6
-  if (mouseX > 0 && mouseY > 0 && mouseX < 100 && mouseY < 100) {
+  if (mouseX > 975+300 && mouseY > 750+175 && mouseX < 975+300+135 && mouseY < 750+175+125) {
 
     date = "6th of December";
     question = "Wht was the name of Jesus grandmother?";
@@ -81,7 +81,7 @@ void mouseClicked() {
     showQuiz = false;
   }
   //DECEMBER 7
-  if (mouseX > 0 && mouseY > 0 && mouseX < 100 && mouseY < 100) {
+  if (mouseX > 315+300 && mouseY > 645+175 && mouseX < 315+300+135 && mouseY < 645+175+125) {
 
     date = "7th of December";
     question = "Who is the Christmas host this year on SVT?";
@@ -94,7 +94,7 @@ void mouseClicked() {
     showQuiz = false;
   }
   //DECEMBER 8
-  if (mouseX > 0 && mouseY > 0 && mouseX < 100 && mouseY < 100) {
+  if (mouseX > 460+300 && mouseY > 645+175 && mouseX < 460+300+135 && mouseY < 645+175+125) {
 
     date = "8th of December";
     question = "If two people meet under this plant they shall kiss, what is the name of the plant?";
@@ -107,7 +107,7 @@ void mouseClicked() {
     showQuiz = false;
   }
   //DECEMBER 9
-  if (mouseX > 0 && mouseY > 0 && mouseX < 100 && mouseY < 100) {
+  if (mouseX > 605+300 && mouseY > 645+175 && mouseX < 605+300+135 && mouseY < 645+175+125) {
 
     date = "9th of December";
 
@@ -121,7 +121,7 @@ void mouseClicked() {
     showQuiz = false;
   }
   //DECEMBER 10
-  if (mouseX > 0 && mouseY > 0 && mouseX < 100 && mouseY < 100) {
+  if (mouseX > 755+300 && mouseY > 645+175 && mouseX < 755+300+135 && mouseY < 645+175+125) {
 
     date = "10th of December";
 
@@ -135,7 +135,7 @@ void mouseClicked() {
     showQuiz = false;
   }
   //DECEMBER 11
-  if (mouseX > 0 && mouseY > 0 && mouseX < 100 && mouseY < 100) {
+  if (mouseX > 900+300 && mouseY > 645+175 && mouseX < 900+300+135 && mouseY < 645+175+125) {
 
     date = "11th of December";
 
@@ -149,7 +149,7 @@ void mouseClicked() {
     showQuiz = false;
   }
   //DECEMBER 12
-  if (mouseX > 0 && mouseY > 0 && mouseX < 100 && mouseY < 100) {
+  if (mouseX > 365+300 && mouseY > 545+175 && mouseX < 365+300+135 && mouseY < 545+175+125) {
 
     date = "12th of December";
 
