@@ -12,7 +12,6 @@ PFont font;
 String s = String.valueOf(d);
 
 void setup() {
-    time = millis();//store the current time
   fullScreen();
   //size(1380,880);
   myBackground = loadImage("Background1.jpg");
@@ -26,7 +25,6 @@ void draw() {
   image(myBackground, 0, 0, width, height);
   light();
   drawSnow();
-<<<<<<< HEAD
   quizBox();
   drawSnowball(340,750);
   drawSnowball1(470,750);
@@ -35,18 +33,6 @@ void draw() {
   drawSnowball4(850,750);
   drawSnowball5(980,750);
   drawSnowball6(405,655);
-=======
-  dateSnowball();
-
-  quizBox();
-drawSnowball(250,750);
-  drawSnowball1(395,750);
-  drawSnowball2(540,750);
-  drawSnowball3(685,750);
-  drawSnowball4(830,750);
-  drawSnowball5(975,750);
-  drawSnowball6(315,645);
->>>>>>> origin/master
   
   drawSnowball7(530,655);
   drawSnowball8(660,655);
@@ -70,13 +56,7 @@ drawSnowball(250,750);
   drawSnowball22(570,270);
   drawSnowball23(700,270);
   
-<<<<<<< HEAD
   drawSnowball24(635,185);
   
-=======
- // drawSnowball24(610,160);
-  
-
->>>>>>> origin/master
   drawDate();
 }
