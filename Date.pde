@@ -12,10 +12,10 @@ int d = day();
 void daySnowball(){
   if (day() == day());{
  if (second()%14 < 9) {
-        drawSnowball24(610, 160);
+        drawSnowball24(610+300, 160+175);
 
   } else {
-        drawNoSnowball(610, 160);
+        drawNoSnowball(610+300, 160+175);
   }
 }
 
