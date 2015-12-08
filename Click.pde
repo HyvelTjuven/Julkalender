@@ -163,7 +163,7 @@ void mouseClicked() {
     showQuiz = false;
   }
   //DECEMBER 13
-  if (mouseX > 980 && mouseY > 545+175 && mouseX < 980+135 && mouseY < 545+175+135) {
+  if (mouseX > 525+300 && mouseY > 545+175 && mouseX < 525+300+135 && mouseY < 545+175+135) {
 
     date = "13th of December";
 
@@ -177,7 +177,7 @@ void mouseClicked() {
     showQuiz = false;
   }
   //DECEMBER 14
-  if (mouseX > 0 && mouseY > 0 && mouseX < 100 && mouseY < 100) {
+  if (mouseX > 680+300 && mouseY > 545+175 && mouseX < 680+300+135 && mouseY < 545+175+135) {
 
     date = "14th of December";
 
@@ -191,7 +191,7 @@ void mouseClicked() {
     showQuiz = false;
   }
   //DECEMBER 15
-  if (mouseX > 0 && mouseY > 0 && mouseX < 100 && mouseY < 100) {
+  if (mouseX > 840+300 && mouseY > 545+175 && mouseX < 840+300+135 && mouseY < 545+175+135) {
 
     date = "15th of December";
 
@@ -205,7 +205,7 @@ void mouseClicked() {
     showQuiz = false;
   }
   //DECEMBER 16
-  if (mouseX > 0 && mouseY > 0 && mouseX < 100 && mouseY < 100) {
+  if (mouseX > 430+300 && mouseY > 440+175 && mouseX < 430+300+135 && mouseY < 440+175+135) {
 
     date = "16th of December";
 
@@ -219,7 +219,7 @@ void mouseClicked() {
     showQuiz = false;
   }
   //DECEMBER 17
-  if (mouseX > 0 && mouseY > 0 && mouseX < 100 && mouseY < 100) {
+  if (mouseX > 550+300 && mouseY > 440+175 && mouseX < 550+300+135 && mouseY < 440+175+135) {
 
     date = "17th of December";
 
@@ -233,7 +233,7 @@ void mouseClicked() {
     showQuiz = false;
   }
   //DECEMBER 18
-  if (mouseX > 0 && mouseY > 0 && mouseX < 100 && mouseY < 100) {
+  if (mouseX > 680+300 && mouseY > 440+175 && mouseX < 680+300+135 && mouseY < 440+175+135) {
 
     date = "18th of December";
 
@@ -247,7 +247,7 @@ void mouseClicked() {
     showQuiz = false;
   }
   //DECEMBER 19
-  if (mouseX > 0 && mouseY > 0 && mouseX < 100 && mouseY < 100) {
+  if (mouseX > 815+300 && mouseY > 440+175 && mouseX < 815+300+135 && mouseY < 440+175+135) {
 
     date = "19th of December";
 
@@ -261,7 +261,7 @@ void mouseClicked() {
     showQuiz = false;
   }
   //DECEMBER 20
-  if (mouseX > 0 && mouseY > 0 && mouseX < 100 && mouseY < 100) {
+  if (mouseX > 470+300 && mouseY > 340+175 && mouseX < 470+300+135 && mouseY < 340+175+135) {
 
     date = "20th of December";
 
@@ -275,7 +275,7 @@ void mouseClicked() {
     showQuiz = false;
   }
   //DECEMBER 21
-  if (mouseX > 0 && mouseY > 0 && mouseX < 100 && mouseY < 100) {
+  if (mouseX > 620+300 && mouseY > 340+175 && mouseX < 620+300+135 && mouseY < 340+175+135) {
 
     date = "21th of December";
 
@@ -289,7 +289,7 @@ void mouseClicked() {
     showQuiz = false;
   }
   //DECEMBER 22
-  if (mouseX > 0 && mouseY > 0 && mouseX < 100 && mouseY < 100) {
+  if (mouseX > 760+300 && mouseY > 340+175 && mouseX < 760+300+135 && mouseY < 340+175+135) {
 
     date = "22nd of December";
 
@@ -303,7 +303,7 @@ void mouseClicked() {
     showQuiz = false;
   }
   //DECEMBER 23
-  if (mouseX > 0 && mouseY > 0 && mouseX < 100 && mouseY < 100) {
+  if (mouseX > 540+300 && mouseY > 245+175 && mouseX < 540+300+135 && mouseY < 245+175+135) {
 
     date = "23rd of December";
 
@@ -317,7 +317,7 @@ void mouseClicked() {
     showQuiz = false;
   }
   //DECEMBER 24
-  if (mouseX > 0 && mouseY > 0 && mouseX < 100 && mouseY < 100) {
+  if (mouseX > 680+300 && mouseY > 245+175 && mouseX < 680+300+135 && mouseY < 245+175+135) {
 
     date = "24th of December";
 
