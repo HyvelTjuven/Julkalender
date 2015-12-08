@@ -52,7 +52,7 @@ drawSnowball(250,750);
   drawSnowball22(535,245);
   drawSnowball23(700,245);
   
- // drawSnowball24(610,160);
+  //drawSnowball24(610,160);
   
 
   drawDate();
