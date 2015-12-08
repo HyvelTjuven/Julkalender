@@ -4,9 +4,8 @@ PFont font;
 PFont questionFont;
 
 void setup() {
-
   fullScreen();
-  //size(1920,1080);
+  //size(1920, 1080);
   myBackground = loadImage("Background1.jpg");
   setupSnow();
   noStroke();
@@ -24,7 +23,7 @@ void draw() {
   quizBox();
   drawSnowball(250+300, 750+175);
   text("1", 250+365, 750+240);
-  
+
   drawSnowball1(395+300, 750+175);
   text("2", 395+365, 750+240);
 
@@ -83,7 +82,6 @@ void draw() {
   text("20", 470+365, 340+240);
 
   drawSnowball20(620+300, 340+175);
-
   text("21", 620+365, 340+240);
 
   drawSnowball21(760+300, 340+175);
@@ -94,21 +92,6 @@ void draw() {
 
   drawSnowball23(700+300, 245+175);
   text("24", 700+365, 245+240);
-
-//=======
-//  text("20", 620+365, 340+240);
-  
-//  drawSnowball21(760+300, 340+175);
-//  text("21", 760+365, 340+240);
-  
-//  drawSnowball22(535+300, 245+175);
-//  text("22", 535+365, 245+240);
-  
-//  drawSnowball23(700+300, 245+175);
-//  text("23", 700+365, 245+240);
-
-
-
 
   drawDate();
   quizBox();
