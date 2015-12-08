@@ -9,16 +9,7 @@ void drawDate() {
 PImage nosnowball;
 
 int d = day();
-void daySnowball() {
-  if (day() == day());
-  {
-    if (second()%14 < 9) {
-      drawSnowball24(610, 160);
-    } else {
-      drawNoSnowball(610, 160);
-    }
-  }
-}
+
 void daySnowball13() {
   if (day() == day());
   {
