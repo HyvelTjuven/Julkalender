@@ -6,7 +6,7 @@ PFont questionFont;
 void setup() {
   // time = millis();//store the current time
 
-  //fullScreen();
+//fullScreen();
   size(1920,1080);
   myBackground = loadImage("Background1.jpg");
   setupSnow();

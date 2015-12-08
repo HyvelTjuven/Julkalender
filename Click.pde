@@ -280,10 +280,10 @@ void mouseClicked() {
 
     date = "23rd of December";
 
-    question = "What is the name of this movie?";
-    answer1 = "1. Home Alone";
-    answer2 = "X. Home Again";
-    answer3 = "2. Christmas Trouble";
+    question = "Who brought the gifts before Santa?";
+    answer1 = "1. Christmas Goat";
+    answer2 = "X. Christmas Reindeer";
+    answer3 = "2. Christmas OWL";
 
     showQuiz = true;
   } else {
