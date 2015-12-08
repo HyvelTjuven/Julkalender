@@ -5,8 +5,9 @@ PFont questionFont;
 
 void setup() {
   // time = millis();//store the current time
-  fullScreen();
-  //size(1920,1080);
+
+  //fullScreen();
+  size(1920,1080);
   myBackground = loadImage("Background1.jpg");
   setupSnow();
   noStroke();
@@ -19,7 +20,7 @@ void draw() {
   image(myBackground, 0, 0, width, height);
   light();
   drawSnow();
-  dateSnowball();
+
 
   quizBox();
   drawSnowball(250+300, 750+175);
@@ -92,6 +93,21 @@ void draw() {
   drawSnowball23(700+300, 245+175);
   text("23", 700+365, 245+240);
   
+  //drawSnowball13(680+300, 545+175);
+ // drawSnowball14(840+300, 545+175);
+
+ // drawSnowball15(430+300, 440+175);
+  //drawSnowball16(540+300, 440+175);
+  //drawSnowball17(680+300, 440+175);
+  //drawSnowball18(815+300, 440+175);
+
+  //drawSnowball19(470+300, 340+175);
+  //drawSnowball20(620+300, 340+175);
+  //drawSnowball21(760+300, 340+175);
+
+  //drawSnowball22(535+300, 245+175);
+  //drawSnowball23(700+300, 245+175);
+
   //drawSnowball24(610,160);
   text("24", 975, 380);
 
