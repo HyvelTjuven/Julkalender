@@ -5,21 +5,22 @@ void drawDate() {
   text(day()+" dec", 100, 90);
 }
 
+
 PImage nosnowball;
 
-
-
-void dateSnowball() {
-
-  if (second()%14 < 9) {
+int d = day();
+void daySnowball(){
+  if (day() == day());{
+ if (second()%14 < 9) {
         drawSnowball24(610, 160);
 
   } else {
         drawNoSnowball(610, 160);
-
   }
+}
 
 }
+
 
 
 

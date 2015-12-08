@@ -19,7 +19,7 @@ void draw() {
   image(myBackground, 0, 0, width, height);
   light();
   drawSnow();
-  dateSnowball();
+  daySnowball();
 
   quizBox();
   drawSnowball(250+300, 750+175);
