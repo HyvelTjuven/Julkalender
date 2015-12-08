@@ -1,15 +1,7 @@
-int quantity = 300;
-float [] xPosition = new float[quantity];
-float [] yPosition = new float[quantity];
-int [] flakeSize = new int[quantity];
-int minFlakeSize = 1;
-int maxFlakeSize = 5;
-
 PImage myBackground;
 
-int d = day();    // Values from 1 - 31
 PFont font;
-String s = String.valueOf(d);
+PFont questionFont;
 
 void setup() {
   fullScreen();
@@ -18,6 +10,7 @@ void setup() {
   setupSnow();
   noStroke();
   font =loadFont("Christmas-100.vlw");
+  questionFont = loadFont("ArialMT-48.vlw");
 }
 
 
@@ -25,6 +18,7 @@ void draw() {
   image(myBackground, 0, 0, width, height);
   light();
   drawSnow();
+<<<<<<< HEAD
   quizBox();
   drawSnowball(250,750);
   drawSnowball1(395,750);
@@ -58,5 +52,9 @@ void draw() {
   
   drawSnowball24(610,160);
   
+=======
+  drawSnowball(500, 500);
+>>>>>>> origin/master
   drawDate();
+  quizBox();
 }
