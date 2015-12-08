@@ -4,7 +4,7 @@ PFont font;
 PFont questionFont;
 
 void setup() {
-    time = millis();//store the current time
+   // time = millis();//store the current time
   fullScreen();
   //size(1380,880);
   myBackground = loadImage("Background1.jpg");
