@@ -1,7 +1,6 @@
-
 void mouseClicked() {
 
-  // DECEMBER THIRD
+  // DECEMBER 3
   if (mouseX > 0 && mouseY > 0 && mouseX < 100 && mouseY < 100) {
 
     date = "3rd of December";
@@ -14,10 +13,11 @@ void mouseClicked() {
   } else {
     showQuiz = false;
   }
+  
   //DECEMBER 4
   if (mouseX > 0 && mouseY > 0 && mouseX < 100 && mouseY < 100) {
 
-    date = "4rd of December";
+    date = "4th of December";
     question = "What does Advent mean in Swedish?";
     answer1 = "1. Ankomst";
     answer2 = "X. Jul";

@@ -1,11 +1,8 @@
-
-int d = day();
-
 void drawDate() {
   fill(255);
   textFont(font);
-  textSize(50);
-  text(day()+" dec", 100, 90);
+  textSize(80);
+  text(day()+" dec", width/2, height/4.5);
 }
 
 
@@ -171,11 +168,6 @@ void daySnowball12() {
     }
   }
 }
-
-
-
-
-
 
 void daySnowball13() {
   if (day() == day());
