@@ -210,7 +210,7 @@ void mouseClicked() {
 
     date = "18th of December";
 
-    question = "What year id Kale Ankas julafton premiere?";
+    question = "What year did Kalle Ankas julafton premiere?";
     answer1 = "1. 1959";
     answer2 = "X. 1969";
     answer3 = "2. 1979";
