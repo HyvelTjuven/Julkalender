@@ -163,7 +163,7 @@ void mouseClicked() {
     showQuiz = false;
   }
   //DECEMBER 13
-  if (mouseX > 0 && mouseY > 0 && mouseX < 100 && mouseY < 100) {
+  if (mouseX > 980 && mouseY > 545+175 && mouseX < 980+135 && mouseY < 545+175+135) {
 
     date = "13th of December";
 
