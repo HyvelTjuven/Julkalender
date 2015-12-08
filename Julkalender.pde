@@ -4,9 +4,8 @@ PFont font;
 PFont questionFont;
 
 void setup() {
-  // time = millis();//store the current time
-  fullScreen();
-  //size(1380,880);
+  //fullScreen();
+  size(1920,1080);
   myBackground = loadImage("Background1.jpg");
   setupSnow();
   noStroke();
@@ -37,20 +36,20 @@ void draw() {
 
   drawSnowball11(365+300, 545+175);
   drawSnowball12(525+300, 545+175);
-  drawSnowball13(680+300, 545+175);
-  drawSnowball14(840+300, 545+175);
+  //drawSnowball13(680+300, 545+175);
+ // drawSnowball14(840+300, 545+175);
 
-  drawSnowball15(430+300, 440+175);
-  drawSnowball16(540+300, 440+175);
-  drawSnowball17(680+300, 440+175);
-  drawSnowball18(815+300, 440+175);
+ // drawSnowball15(430+300, 440+175);
+  //drawSnowball16(540+300, 440+175);
+  //drawSnowball17(680+300, 440+175);
+  //drawSnowball18(815+300, 440+175);
 
-  drawSnowball19(470+300, 340+175);
-  drawSnowball20(620+300, 340+175);
-  drawSnowball21(760+300, 340+175);
+  //drawSnowball19(470+300, 340+175);
+  //drawSnowball20(620+300, 340+175);
+  //drawSnowball21(760+300, 340+175);
 
-  drawSnowball22(535+300, 245+175);
-  drawSnowball23(700+300, 245+175);
+  //drawSnowball22(535+300, 245+175);
+  //drawSnowball23(700+300, 245+175);
 
   //drawSnowball24(610,160);
 
