@@ -170,7 +170,7 @@ void daySnowball12() {
 }
 
 void daySnowball13() {
-  if (day() == day());
+  if (day() == 14);
   {
     if (second()%14 < 9) {
       drawSnowball13(680+300, 545+175);
@@ -180,7 +180,7 @@ void daySnowball13() {
   }
 }
 void daySnowball14() {
-  if (day() == day());
+  if (day() == 15);
   {
     if (second()%14 < 9) {
       drawSnowball14(840+300, 545+175);
@@ -190,7 +190,7 @@ void daySnowball14() {
   }
 }
 void daySnowball15() {
-  if (day() == day());
+  if (day() == 16);
   {
     if (second()%14 < 9) {
       drawSnowball15(430+300, 440+175);
@@ -200,7 +200,7 @@ void daySnowball15() {
   }
 }
 void daySnowball16() {
-  if (day() == day());
+  if (day() == 17);
   {
     if (second()%14 < 9) {
       drawSnowball16(540+300, 440+175);
@@ -210,7 +210,7 @@ void daySnowball16() {
   }
 }
 void daySnowball17() {
-  if (day() == day());
+  if (day() == 18);
   {
     if (second()%14 < 9) {
       drawSnowball17(680+300, 440+175);
@@ -220,7 +220,7 @@ void daySnowball17() {
   }
 }
 void daySnowball18() {
-  if (day() == day());
+  if (day() == 19);
   {
     if (second()%14 < 9) {
       drawSnowball18(815+300, 440+175);
@@ -230,7 +230,7 @@ void daySnowball18() {
   }
 }
 void daySnowball19() {
-  if (day() == day());
+  if (day() == 20);
   {
     if (second()%14 < 9) {
       drawSnowball19(470+300, 340+175);
@@ -240,7 +240,7 @@ void daySnowball19() {
   }
 }
 void daySnowball20() {
-  if (day() == day());
+  if (day() == 21);
   {
     if (second()%14 < 9) {
       drawSnowball20(620+300, 340+175);
@@ -250,7 +250,7 @@ void daySnowball20() {
   }
 }
 void daySnowball21() {
-  if (day() == day());
+  if (day() == 22);
   {
     if (second()%14 < 9) {
       drawSnowball21(760+300, 340+175);
@@ -260,7 +260,7 @@ void daySnowball21() {
   }
 }
 void daySnowball22() {
-  if (day() == day());
+  if (day() == 23);
   {
     if (second()%14 < 9) {
       drawSnowball22(535+300, 245+175);
@@ -270,7 +270,7 @@ void daySnowball22() {
   }
 }
 void daySnowball23() {
-  if (day() == day());
+  if (day() == 24);
   {
     if (second()%14 < 9) {
       drawSnowball23(700+300, 245+175);

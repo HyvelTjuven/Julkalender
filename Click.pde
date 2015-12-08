@@ -1,4 +1,31 @@
 void mouseClicked() {
+  
+   // DECEMBER 1
+  if (mouseX > 0 && mouseY > 0 && mouseX < 100 && mouseY < 100) {
+
+    date = "1st of December";
+    question = "Sunes Jul aired as a Christmas calendar on SVT 1991, what is the name of Sunes father?";
+    answer1 = "1. Sven";
+    answer2 = "X. Rudolf";
+    answer3 = "2. Lars";
+
+    showQuiz = true;
+  } else {
+    showQuiz = false;
+  }
+  // DECEMBER 2
+  if (mouseX > 0 && mouseY > 0 && mouseX < 100 && mouseY < 100) {
+
+    date = "2nd of December";
+    question = "What year did the Swedish Christmas calendar Teskedsgumman air on SVT for the first time?";
+    answer1 = "1. 1945";
+    answer2 = "X. 1931";
+    answer3 = "2. 1967";
+
+    showQuiz = true;
+  } else {
+    showQuiz = false;
+  }
 
   // DECEMBER 3
   if (mouseX > 0 && mouseY > 0 && mouseX < 100 && mouseY < 100) {
@@ -84,10 +111,10 @@ void mouseClicked() {
 
     date = "9th of December";
 
-    question = "What is the name of this movie?";
-    answer1 = "1. Love actually";
-    answer2 = "X. Christmas morning";
-    answer3 = "2. Love";
+    question = "What date do Lucia occur?";
+    answer1 = "1. 13dec";
+    answer2 = "X. 16dec";
+    answer3 = "2. 18dec";
 
     showQuiz = true;
   } else {
@@ -210,7 +237,7 @@ void mouseClicked() {
 
     date = "18th of December";
 
-    question = "What year id Kale Ankas julafton premiere?";
+    question = "What year did Kalle Ankas julafton premiere?";
     answer1 = "1. 1959";
     answer2 = "X. 1969";
     answer3 = "2. 1979";
@@ -280,10 +307,24 @@ void mouseClicked() {
 
     date = "23rd of December";
 
-    question = "What is the name of this movie?";
-    answer1 = "1. Home Alone";
-    answer2 = "X. Home Again";
-    answer3 = "2. Christmas Trouble";
+    question = "Who brought the gifts before Santa?";
+    answer1 = "1. Christmas Goat";
+    answer2 = "X. Christmas Reindeer";
+    answer3 = "2. Christmas OWL";
+
+    showQuiz = true;
+  } else {
+    showQuiz = false;
+  }
+  //DECEMBER 24
+  if (mouseX > 0 && mouseY > 0 && mouseX < 100 && mouseY < 100) {
+
+    date = "24th of December";
+
+    question = "MERRY CHRISTMAS!";
+    answer1 = "";
+    answer2 = "";
+    answer3 = "";
 
     showQuiz = true;
   } else {

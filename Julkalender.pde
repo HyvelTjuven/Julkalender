@@ -4,7 +4,6 @@ PFont font;
 PFont questionFont;
 
 void setup() {
-  // time = millis();//store the current time
 
   fullScreen();
   //size(1920,1080);
@@ -84,6 +83,7 @@ void draw() {
   text("20", 470+365, 340+240);
 
   drawSnowball20(620+300, 340+175);
+
   text("21", 620+365, 340+240);
 
   drawSnowball21(760+300, 340+175);
@@ -95,7 +95,17 @@ void draw() {
   drawSnowball23(700+300, 245+175);
   text("24", 700+365, 245+240);
 
-  text("24", 975, 380);
+//=======
+//  text("20", 620+365, 340+240);
+  
+//  drawSnowball21(760+300, 340+175);
+//  text("21", 760+365, 340+240);
+  
+//  drawSnowball22(535+300, 245+175);
+//  text("22", 535+365, 245+240);
+  
+//  drawSnowball23(700+300, 245+175);
+//  text("23", 700+365, 245+240);
 
 
 
