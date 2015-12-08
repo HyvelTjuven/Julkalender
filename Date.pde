@@ -30,7 +30,7 @@ void daySnowball24() {
 }
 
 void daySnowball() {
-  if (day() == day());
+  if (day() == 1);
   {
     if (second()%14 < 9) {
       drawSnowball(250+300, 750+175);
@@ -41,7 +41,7 @@ void daySnowball() {
 }
 
 void daySnowball1() {
-  if (day() == day());
+  if (day() == 2);
   {
     if (second()%14 < 9) {
       drawSnowball1(395+300, 750+175);
@@ -52,7 +52,7 @@ void daySnowball1() {
 }
 
 void daySnowball2() {
-  if (day() == day());
+  if (day() == 3);
   {
     if (second()%14 < 9) {
       drawSnowball2(540+300, 750+175);
@@ -63,7 +63,7 @@ void daySnowball2() {
 }
 
 void daySnowball3() {
-  if (day() == day());
+  if (day() == 4);
   {
     if (second()%14 < 9) {
       drawSnowball3(685+300, 750+175);
@@ -74,7 +74,7 @@ void daySnowball3() {
 }
 
 void daySnowball4() {
-  if (day() == day());
+  if (day() == 5);
   {
     if (second()%14 < 9) {
       drawSnowball4(830+300, 750+175);
@@ -85,7 +85,7 @@ void daySnowball4() {
 }
 
 void daySnowball5() {
-  if (day() == day());
+  if (day() == 6);
   {
     if (second()%14 < 9) {
       drawSnowball5(975+300, 750+175);
@@ -96,7 +96,7 @@ void daySnowball5() {
 }
 
 void daySnowball6() {
-  if (day() == day());
+  if (day() == 7);
   {
     if (second()%14 < 9) {
       drawSnowball6(315+300, 645+175);
@@ -107,7 +107,7 @@ void daySnowball6() {
 }
 
 void daySnowball7() {
-  if (day() == day());
+  if (day() == 8);
   {
     if (second()%14 < 9) {
       drawSnowball7(460+300, 645+175);
@@ -118,8 +118,7 @@ void daySnowball7() {
 }
 
 void daySnowball8() {
-  // drawSnowball8;
-  if (day() == 8);
+  if (day() == 9);
   {
     if (second()%14 < 9) {
       drawSnowball8(605+300, 645+175);
@@ -130,7 +129,7 @@ void daySnowball8() {
 }
 
 void daySnowball9() {
-  if (day() == day());
+  if (day() == 10);
   {
     if (second()%14 < 9) {
       drawSnowball9(755+300, 645+175);
@@ -141,7 +140,7 @@ void daySnowball9() {
 }
 
 void daySnowball10() {
-  if (day() == day());
+  if (day() == 11);
   {
     if (second()%14 < 9) {
       drawSnowball10(900+300, 645+175);
@@ -152,7 +151,7 @@ void daySnowball10() {
 }
 
 void daySnowball11() {
-  if (day() == day());
+  if (day() == 12);
   {
     if (second()%14 < 9) {
       drawSnowball11(365+300, 545+175);
@@ -163,7 +162,7 @@ void daySnowball11() {
 }
 
 void daySnowball12() {
-  if (day() == day());
+  if (day() == 13);
   {
     if (second()%14 < 9) {
       drawSnowball12(525+300, 545+175);
