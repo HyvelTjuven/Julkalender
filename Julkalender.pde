@@ -18,7 +18,7 @@ void draw() {
   image(myBackground, 0, 0, width, height);
   light();
   drawSnow();
-<<<<<<< HEAD
+
   quizBox();
   drawSnowball(250,750);
   drawSnowball1(395,750);
@@ -52,9 +52,7 @@ void draw() {
   
   drawSnowball24(610,160);
   
-=======
-  drawSnowball(500, 500);
->>>>>>> origin/master
+
   drawDate();
   quizBox();
 }
