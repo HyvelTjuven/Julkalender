@@ -39,6 +39,15 @@ void quizBox() {
 
     xPos = width/2;
     yPos = height/1.7;
+
+    fill(0, 200);
+    timerLength = (answerTimer - millis())/30;
+
+    if (timerLength < 0) {
+      timerLength = 0;
+    }
+
+    rect(width/2, 850, timerLength, 60, 20);
   } else {
 
     xPos = 2000;
@@ -88,16 +97,6 @@ void questions() {
     answer2 = "X. Rudolf";
     answer3 = "2. Lars";
 
-    fill(0, 100);
-    timerLength = (answerTimer - millis())/30;
-
-    if (timerLength < 0) {
-      timerLength = 0;
-    }
-
-    rect(width/2, 850, timerLength, 60, 20);
-
-
     if (millis() > answerTimer) {
       realAnswer = "Answer: x. Rudolf";
     }
@@ -109,15 +108,6 @@ void questions() {
     answer1 = "1. 1945";
     answer2 = "X. 1931";
     answer3 = "2. 1967";
-
-    fill(0, 100);
-    timerLength = (answerTimer - millis())/30;
-
-    if (timerLength < 0) {
-      timerLength = 0;
-    }
-
-    rect(width/2, 850, timerLength, 60, 20);
 
     if (millis() > answerTimer) {
       realAnswer = "ANSWER: x. Rudolf";
@@ -132,15 +122,6 @@ void questions() {
     answer2 = "X. Pelle Svanslös";
     answer3 = "2. Mysteriet på greveholm";
 
-    fill(0, 100);
-    timerLength = (answerTimer - millis())/30;
-
-    if (timerLength < 0) {
-      timerLength = 0;
-    }
-
-    rect(width/2, 850, timerLength, 60, 20);
-
     if (millis() > answerTimer) {
       realAnswer = "ANSWER: x. Rudolf";
     }
@@ -152,16 +133,7 @@ void questions() {
     question = "What does Advent mean in Swedish?";
     answer1 = "1. Ankomst";
     answer2 = "X. Jul";
-    answer3 = "2. Kommer";
-
-    fill(0, 100);
-    timerLength = (answerTimer - millis())/30;
-
-    if (timerLength < 0) {
-      timerLength = 0;
-    }
-
-    rect(width/2, 850, timerLength, 60, 20);
+    answer3 = "2. Kommer";´
 
     if (millis() > answerTimer) {
       realAnswer = "ANSWER: x. Rudolf";
@@ -176,15 +148,6 @@ void questions() {
     answer2 = "X. Betlehem";
     answer3 = "2. Nazareth";
 
-    fill(0, 100);
-    timerLength = (answerTimer - millis())/30;
-
-    if (timerLength < 0) {
-      timerLength = 0;
-    }
-
-    rect(width/2, 850, timerLength, 60, 20);
-
     if (millis() > answerTimer) {
       realAnswer = "ANSWER: x. Rudolf";
     }
@@ -197,15 +160,6 @@ void questions() {
     answer1 = "1. Anna";
     answer2 = "X. Sara";
     answer3 = "2. Britta";
-
-    fill(0, 100);
-    timerLength = (answerTimer - millis())/30;
-
-    if (timerLength < 0) {
-      timerLength = 0;
-    }
-
-    rect(width/2, 850, timerLength, 60, 20);
 
     if (millis() > answerTimer) {
       realAnswer = "ANSWER: x. Rudolf";
@@ -220,15 +174,6 @@ void questions() {
     answer2 = "X. Gina Dirawi";
     answer3 = "2. Peter Magnusson";
 
-    fill(0, 100);
-    timerLength = (answerTimer - millis())/30;
-
-    if (timerLength < 0) {
-      timerLength = 0;
-    }
-
-    rect(width/2, 850, timerLength, 60, 20);
-
     if (millis() > answerTimer) {
       realAnswer = "ANSWER: x. Rudolf";
     }
@@ -240,15 +185,6 @@ void questions() {
     answer1 = "1. Pinetree";
     answer2 = "X. Mistletoe";
     answer3 = "2. Rose";
-
-    fill(0, 100);
-    timerLength = (answerTimer - millis())/30;
-
-    if (timerLength < 0) {
-      timerLength = 0;
-    }
-
-    rect(width/2, 850, timerLength, 60, 20);
 
     if (millis() > answerTimer) {
       realAnswer = "ANSWER: x. Rudolf";
@@ -264,15 +200,6 @@ void questions() {
     answer2 = "X. 16th December";
     answer3 = "2. 18th December";
 
-    fill(0, 100);
-    timerLength = (answerTimer - millis())/30;
-
-    if (timerLength < 0) {
-      timerLength = 0;
-    }
-
-    rect(width/2, 850, timerLength, 60, 20);
-
     if (millis() > answerTimer) {
       realAnswer = "ANSWER: x. Rudolf";
     }
@@ -286,15 +213,6 @@ void questions() {
     answer1 = "1. 5";
     answer2 = "X. 2";
     answer3 = "2. 3";
-
-    fill(0, 100);
-    timerLength = (answerTimer - millis())/30;
-
-    if (timerLength < 0) {
-      timerLength = 0;
-    }
-
-    rect(width/2, 850, timerLength, 60, 20);
 
     if (millis() > answerTimer) {
       realAnswer = "ANSWER: x. Rudolf";
@@ -310,15 +228,6 @@ void questions() {
     answer2 = "X. \"Just like the ones I used to go\"";
     answer3 = "2. \"Just like the ones I used to have\"";
 
-    fill(0, 100);
-    timerLength = (answerTimer - millis())/30;
-
-    if (timerLength < 0) {
-      timerLength = 0;
-    }
-
-    rect(width/2, 850, timerLength, 60, 20);
-
     if (millis() > answerTimer) {
       realAnswer = "ANSWER: x. Rudolf";
     }
@@ -333,23 +242,12 @@ void questions() {
     answer2 = "X. Yeti";
     answer3 = "2. The Grinch";
 
-    fill(0, 100);
-    timerLength = (answerTimer - millis())/30;
-
-    if (timerLength < 0) {
-      timerLength = 0;
-    }
-
-    rect(width/2, 850, timerLength, 60, 20);
-
     if (millis() > answerTimer) {
       realAnswer = "ANSWER: x. Rudolf";
     }
   }
 
   if (clickedSnowball[12]) {
-    drawLucia(width/5, height/1.6);
-    drawThirdAdvent(width/1.4, height/1.35);
     date = "13th of December";
 
     question = "On what date is Christmas day?";
@@ -357,14 +255,8 @@ void questions() {
     answer2 = "X. 24th";
     answer3 = "2. 25th";
 
-    fill(0, 100);
-    timerLength = (answerTimer - millis())/30;
-
-    if (timerLength < 0) {
-      timerLength = 0;
-    }
-
-    rect(width/2, 850, timerLength, 60, 20);
+    drawLucia(width/5, height/1.6);
+    drawThirdAdvent(width/1.4, height/1.35);
 
     if (millis() > answerTimer) {
       realAnswer = "ANSWER: x. Rudolf";
@@ -380,15 +272,6 @@ void questions() {
     answer2 = "X. 6";
     answer3 = "2. 8";
 
-    fill(0, 100);
-    timerLength = (answerTimer - millis())/30;
-
-    if (timerLength < 0) {
-      timerLength = 0;
-    }
-
-    rect(width/2, 850, timerLength, 60, 20);
-
     if (millis() > answerTimer) {
       realAnswer = "ANSWER: x. Rudolf";
     }
@@ -402,15 +285,6 @@ void questions() {
     answer2 = "X. 10";
     answer3 = "2. 9";
 
-    fill(0, 100);
-    timerLength = (answerTimer - millis())/30;
-
-    if (timerLength < 0) {
-      timerLength = 0;
-    }
-
-    rect(width/2, 850, timerLength, 60, 20);
-
     if (millis() > answerTimer) {
       realAnswer = "ANSWER: x. Rudolf";
     }
@@ -423,15 +297,6 @@ void questions() {
     answer1 = "1. GPS";
     answer2 = "X. Flatscreen TV";
     answer3 = "2. Experience";
-
-    fill(0, 100);
-    timerLength = (answerTimer - millis())/30;
-
-    if (timerLength < 0) {
-      timerLength = 0;
-    }
-
-    rect(width/2, 850, timerLength, 60, 20);
 
     if (millis() > answerTimer) {
       realAnswer = "ANSWER: x. Rudolf";
@@ -447,15 +312,6 @@ void questions() {
     answer2 = "X. 13dec";
     answer3 = "2. 20dec";
 
-    fill(0, 100);
-    timerLength = (answerTimer - millis())/30;
-
-    if (timerLength < 0) {
-      timerLength = 0;
-    }
-
-    rect(width/2, 850, timerLength, 60, 20);
-
     if (millis() > answerTimer) {
       realAnswer = "ANSWER: x. Rudolf";
     }
@@ -468,15 +324,6 @@ void questions() {
     answer1 = "1. 1959";
     answer2 = "X. 1969";
     answer3 = "2. 1979";
-
-    fill(0, 100);
-    timerLength = (answerTimer - millis())/30;
-
-    if (timerLength < 0) {
-      timerLength = 0;
-    }
-
-    rect(width/2, 850, timerLength, 60, 20);
 
     if (millis() > answerTimer) {
       realAnswer = "ANSWER: x. Rudolf";
@@ -491,16 +338,7 @@ void questions() {
     answer1 = "1. 30";
     answer2 = "X. 20";
     answer3 = "2. 25";
-
-    fill(0, 100);
-    timerLength = (answerTimer - millis())/30;
-
-    if (timerLength < 0) {
-      timerLength = 0;
-    }
-
-    rect(width/2, 850, timerLength, 60, 20);
-
+    
     if (millis() > answerTimer) {
       realAnswer = "ANSWER: x. Rudolf";
     }
@@ -516,15 +354,6 @@ void questions() {
     answer2 = "X. Buon Natale";
     answer3 = "2. Frohe Weihnachten";
 
-    fill(0, 100);
-    timerLength = (answerTimer - millis())/30;
-
-    if (timerLength < 0) {
-      timerLength = 0;
-    }
-
-    rect(width/2, 850, timerLength, 60, 20);
-
     if (millis() > answerTimer) {
       realAnswer = "ANSWER: x. Rudolf";
     }
@@ -538,15 +367,6 @@ void questions() {
     answer1 = "1. Europe";
     answer2 = "X. ABBA";
     answer3 = "2. Roxette";
-
-    fill(0, 100);
-    timerLength = (answerTimer - millis())/30;
-
-    if (timerLength < 0) {
-      timerLength = 0;
-    }
-
-    rect(width/2, 850, timerLength, 60, 20);
 
     if (millis() > answerTimer) {
       realAnswer = "ANSWER: x. Rudolf";
@@ -562,15 +382,6 @@ void questions() {
     answer2 = "X. Papa Joel";
     answer3 = "2. Papa Noel";
 
-    fill(0, 100);
-    timerLength = (answerTimer - millis())/30;
-
-    if (timerLength < 0) {
-      timerLength = 0;
-    }
-
-    rect(width/2, 850, timerLength, 60, 20);
-
     if (millis() > answerTimer) {
       realAnswer = "ANSWER: x. Rudolf";
     }
@@ -584,15 +395,6 @@ void questions() {
     answer1 = "1. Christmas Goat";
     answer2 = "X. Christmas Reindeer";
     answer3 = "2. Christmas Owl";
-
-    fill(0, 100);
-    timerLength = (answerTimer - millis())/30;
-
-    if (timerLength < 0) {
-      timerLength = 0;
-    }
-
-    rect(width/2, 850, timerLength, 60, 20);
 
     if (millis() > answerTimer) {
       realAnswer = "ANSWER: x. Rudolf";

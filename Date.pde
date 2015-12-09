@@ -10,9 +10,16 @@ void drawDate() {
 void automaticSnowball() {
   if (minute()%11 >= 10) {
     clickedSnowball[day()-1] = true;
-  } else { 
-    clickedSnowball[day()-1] = false;
+
+    fill(0, 100);
+    timerLength = (answerTimer - millis())/30;
+
+    if (timerLength < 0) {
+      timerLength = 0;
+    }
+    rect(width/2, 850, timerLength, 60, 20);
   }
+
 
   if (clickedSnowball[day()-1] == false) {
     countDown = 9 - minute()%11 + " minutes and " + (60 - second()) + " seconds until todays question";
