@@ -4,8 +4,8 @@ PFont font;
 PFont questionFont;
 
 void setup() {
-  //fullScreen();
-  size(1920, 1080);
+  fullScreen();
+  //size(1920, 1080);
   myBackground = loadImage("Background1.jpg");
   setupSnow();
   noStroke();
@@ -24,5 +24,5 @@ void draw() {
   automaticSnowball();
   quizBox();
   
-  println(second()%15);
+  println(minute()%11 + " " +second());
 }

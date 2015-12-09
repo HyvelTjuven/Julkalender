@@ -7,6 +7,8 @@ String answer1;
 String answer2;
 String answer3;
 
+String realAnswer;
+
 Boolean showQuiz = false;
 
 void quizBox() {  
