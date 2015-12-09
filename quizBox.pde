@@ -133,7 +133,7 @@ void questions() {
     question = "What does Advent mean in Swedish?";
     answer1 = "1. Ankomst";
     answer2 = "X. Jul";
-    answer3 = "2. Kommer";´
+    answer3 = "2. Kommer";
 
     if (millis() > answerTimer) {
       realAnswer = "ANSWER: x. Rudolf";
