@@ -79,44 +79,57 @@ void questions() {
     answer3 = "2. 1967";
   }
 
-  if (clickedSnowball[0]) {
-    date = "1st of December";
-    question = "Sunes Jul aired as a Christmas calendar on SVT 1991,\nwhat is the name of Sunes father?";
-    answer1 = "1. Sven";
-    answer2 = "X. Rudolf";
-    answer3 = "2. Lars";
+  if (clickedSnowball[2]) {
+
+    date = "3rd of December";
+    question = "What is the name of this years SVT christmas calendar?";
+    answer1 = "1. Tusen år till julafton";
+    answer2 = "X. Pelle Svanslös";
+    answer3 = "2. Mysteriet på greveholm";
   }
 
-  if (clickedSnowball[0]) {
-    date = "1st of December";
-    question = "Sunes Jul aired as a Christmas calendar on SVT 1991,\nwhat is the name of Sunes father?";
-    answer1 = "1. Sven";
-    answer2 = "X. Rudolf";
-    answer3 = "2. Lars";
+  if (clickedSnowball[3]) {
+
+    date = "4th of December";
+    question = "What does Advent mean in Swedish?";
+    answer1 = "1. Ankomst";
+    answer2 = "X. Jul";
+    answer3 = "2. Kommer";
   }
 
-  if (clickedSnowball[0]) {
-    date = "1st of December";
-    question = "Sunes Jul aired as a Christmas calendar on SVT 1991,\nwhat is the name of Sunes father?";
-    answer1 = "1. Sven";
-    answer2 = "X. Rudolf";
-    answer3 = "2. Lars";
+  if (clickedSnowball[4]) {
+
+    date = "5th of December";
+    question = "Where was Jesus born?";
+    answer1 = "1. Jerusalem";
+    answer2 = "X. Betlehem";
+    answer3 = "2. Nazareth";
   }
 
-  if (clickedSnowball[0]) {
-    date = "1st of December";
-    question = "Sunes Jul aired as a Christmas calendar on SVT 1991,\nwhat is the name of Sunes father?";
-    answer1 = "1. Sven";
-    answer2 = "X. Rudolf";
-    answer3 = "2. Lars";
+  if (clickedSnowball[5]) {
+
+    date = "6th of December";
+    question = "What was the name of Jesus grandmother?";
+    answer1 = "1. Anna";
+    answer2 = "X. Sara";
+    answer3 = "2. Britta";
   }
 
-  if (clickedSnowball[0]) {
-    date = "1st of December";
-    question = "Sunes Jul aired as a Christmas calendar on SVT 1991,\nwhat is the name of Sunes father?";
-    answer1 = "1. Sven";
-    answer2 = "X. Rudolf";
-    answer3 = "2. Lars";
+  if (clickedSnowball[6]) {
+
+    date = "7th of December";
+    question = "Who is the Christmas host this year on SVT?";
+    answer1 = "1. Arne Weise";
+    answer2 = "X. Gina Dirawi";
+    answer3 = "2. Peter Magnusson";
+  }
+
+  if (clickedSnowball[7]) {
+    date = "8th of December";
+    question = "If two people meet under this plant they shall kiss,\nwhat is the name of the plant?";
+    answer1 = "1. Pinetree";
+    answer2 = "X. Mistletoe";
+    answer3 = "2. Rose";
   }
 
   if (clickedSnowball[8]) {
@@ -139,117 +152,137 @@ void questions() {
     answer3 = "2. 3";
   }
 
-  if (clickedSnowball[0]) {
-    date = "1st of December";
-    question = "Sunes Jul aired as a Christmas calendar on SVT 1991,\nwhat is the name of Sunes father?";
-    answer1 = "1. Sven";
-    answer2 = "X. Rudolf";
-    answer3 = "2. Lars";
+  if (clickedSnowball[10]) {
+
+    date = "11th of December";
+
+    question = "What is the second line of the song\n\"I'm dreaming of a white Christmas\"?";
+    answer1 = "1. \"Just like the ones I used to know\"";
+    answer2 = "X. \"Just like the ones I used to go\"";
+    answer3 = "2. \"Just like the ones I used to have\"";
   }
 
-  if (clickedSnowball[0]) {
-    date = "1st of December";
-    question = "Sunes Jul aired as a Christmas calendar on SVT 1991,\nwhat is the name of Sunes father?";
-    answer1 = "1. Sven";
-    answer2 = "X. Rudolf";
-    answer3 = "2. Lars";
+  if (clickedSnowball[11]) {
+
+    date = "12th of December";
+
+    question = "Who is rumored to have stolen Christmas?";
+    answer1 = "1. Snoopy";
+    answer2 = "X. Yeti";
+    answer3 = "2. The Grinch";
   }
 
-  if (clickedSnowball[0]) {
-    date = "1st of December";
-    question = "Sunes Jul aired as a Christmas calendar on SVT 1991,\nwhat is the name of Sunes father?";
-    answer1 = "1. Sven";
-    answer2 = "X. Rudolf";
-    answer3 = "2. Lars";
+  if (clickedSnowball[12]) {
+
+    date = "13th of December";
+
+    question = "There are 365 days in a year.\nWhat number is Christmas day?";
+    answer1 = "1. 23rd";
+    answer2 = "X. 24th";
+    answer3 = "2. 25th";
   }
 
-  if (clickedSnowball[0]) {
-    date = "1st of December";
-    question = "Sunes Jul aired as a Christmas calendar on SVT 1991,\nwhat is the name of Sunes father?";
-    answer1 = "1. Sven";
-    answer2 = "X. Rudolf";
-    answer3 = "2. Lars";
+  if (clickedSnowball[13]) {
+
+    date = "14th of December";
+
+    question = "How many points does a snowflake have?";
+    answer1 = "1. 9";
+    answer2 = "X. 6";
+    answer3 = "2. 8";
+  }
+  if (clickedSnowball[14]) {
+
+    date = "15th of December";
+
+    question = "How many lights does a classic electrical adventljusstake have?";
+    answer1 = "1. 7";
+    answer2 = "X. 10";
+    answer3 = "2. 9";
+  }
+  if (clickedSnowball[15]) {
+
+    date = "16th of December";
+
+    question = "What was the Christmas gift of the year 2008 in Sweden?";
+    answer1 = "1. GPS";
+    answer2 = "X. Flatscreen TV";
+    answer3 = "2. Experience";
+  }
+  if (clickedSnowball[16]) {
+
+    date = "17th of December";
+
+    question = "When does the Day of the gingerbread occur?";
+    answer1 = "1. 9dec";
+    answer2 = "X. 13dec";
+    answer3 = "2. 20dec";
+  }
+  if (clickedSnowball[17]) {
+
+    date = "18th of December";
+
+    question = "What year did Kalle Ankas julafton premiere?";
+    answer1 = "1. 1959";
+    answer2 = "X. 1969";
+    answer3 = "2. 1979";
+  }
+  if (clickedSnowball[18]) {
+
+    date = "19th of December";
+
+    question = "How many pralines fit in the Aladdin box of chocolate?";
+    answer1 = "1. 30";
+    answer2 = "X. 20";
+    answer3 = "2. 25";
+  }
+  if (clickedSnowball[19]) {
+
+    date = "20th of December";
+
+    question = "How do you say Merry Christmas in Italian?";
+    answer1 = "1. Feliz Navidad";
+    answer2 = "X. Buon Natale";
+    answer3 = "2. Frohe Weihnachten";
   }
 
-  if (clickedSnowball[0]) {
-    date = "1st of December";
-    question = "Sunes Jul aired as a Christmas calendar on SVT 1991,\nwhat is the name of Sunes father?";
-    answer1 = "1. Sven";
-    answer2 = "X. Rudolf";
-    answer3 = "2. Lars";
-  }
-  if (clickedSnowball[0]) {
-    date = "1st of December";
-    question = "Sunes Jul aired as a Christmas calendar on SVT 1991,\nwhat is the name of Sunes father?";
-    answer1 = "1. Sven";
-    answer2 = "X. Rudolf";
-    answer3 = "2. Lars";
-  }
-  if (clickedSnowball[0]) {
-    date = "1st of December";
-    question = "Sunes Jul aired as a Christmas calendar on SVT 1991,\nwhat is the name of Sunes father?";
-    answer1 = "1. Sven";
-    answer2 = "X. Rudolf";
-    answer3 = "2. Lars";
-  }
-  if (clickedSnowball[0]) {
-    date = "1st of December";
-    question = "Sunes Jul aired as a Christmas calendar on SVT 1991,\nwhat is the name of Sunes father?";
-    answer1 = "1. Sven";
-    answer2 = "X. Rudolf";
-    answer3 = "2. Lars";
-  }
-  if (clickedSnowball[0]) {
-    date = "1st of December";
-    question = "Sunes Jul aired as a Christmas calendar on SVT 1991,\nwhat is the name of Sunes father?";
-    answer1 = "1. Sven";
-    answer2 = "X. Rudolf";
-    answer3 = "2. Lars";
-  }
-  if (clickedSnowball[0]) {
-    date = "1st of December";
-    question = "Sunes Jul aired as a Christmas calendar on SVT 1991,\nwhat is the name of Sunes father?";
-    answer1 = "1. Sven";
-    answer2 = "X. Rudolf";
-    answer3 = "2. Lars";
-  }
-  if (clickedSnowball[0]) {
-    date = "1st of December";
-    question = "Sunes Jul aired as a Christmas calendar on SVT 1991,\nwhat is the name of Sunes father?";
-    answer1 = "1. Sven";
-    answer2 = "X. Rudolf";
-    answer3 = "2. Lars";
+  if (clickedSnowball[20]) {
+
+    date = "21th of December";
+
+    question = "What Swedish group sang the song Happy New Year";
+    answer1 = "1. Europe";
+    answer2 = "X. ABBA";
+    answer3 = "2. Roxette";
   }
 
-  if (clickedSnowball[0]) {
-    date = "1st of December";
-    question = "Sunes Jul aired as a Christmas calendar on SVT 1991,\nwhat is the name of Sunes father?";
-    answer1 = "1. Sven";
-    answer2 = "X. Rudolf";
-    answer3 = "2. Lars";
+  if (clickedSnowball[21]) {
+
+    date = "22nd of December";
+
+    question = "What is Santa Clauses name in Spanish";
+    answer1 = "1. Papa Navidad";
+    answer2 = "X. Papa Joel";
+    answer3 = "2. Papa Noel";
   }
 
-  if (clickedSnowball[0]) {
-    date = "1st of December";
-    question = "Sunes Jul aired as a Christmas calendar on SVT 1991,\nwhat is the name of Sunes father?";
-    answer1 = "1. Sven";
-    answer2 = "X. Rudolf";
-    answer3 = "2. Lars";
+  if (clickedSnowball[22]) {
+
+    date = "23rd of December";
+
+    question = "Who brought the gifts before Santa?";
+    answer1 = "1. Christmas Goat";
+    answer2 = "X. Christmas Reindeer";
+    answer3 = "2. Christmas OWL";
   }
 
-  if (clickedSnowball[0]) {
-    date = "1st of December";
-    question = "Sunes Jul aired as a Christmas calendar on SVT 1991,\nwhat is the name of Sunes father?";
-    answer1 = "1. Sven";
-    answer2 = "X. Rudolf";
-    answer3 = "2. Lars";
-  }
+  if (clickedSnowball[23]) {
 
-  if (clickedSnowball[0]) {
-    date = "1st of December";
-    question = "Sunes Jul aired as a Christmas calendar on SVT 1991,\nwhat is the name of Sunes father?";
-    answer1 = "1. Sven";
-    answer2 = "X. Rudolf";
-    answer3 = "2. Lars";
+    date = "24th of December";
+
+    question = "MERRY CHRISTMAS!";
+    answer1 = "";
+    answer2 = "";
+    answer3 = "";
   }
 }
