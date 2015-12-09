@@ -98,7 +98,7 @@ void questions() {
     answer3 = "2. Lars";
 
     if (millis() > answerTimer) {
-      realAnswer = "Answer: x. Rudolf";
+      realAnswer = "Answer: X. Rudolf";
     }
   }
 
@@ -110,7 +110,7 @@ void questions() {
     answer3 = "2. 1967";
 
     if (millis() > answerTimer) {
-      realAnswer = "ANSWER: x. Rudolf";
+      realAnswer = "Answer: 2. 1967";
     }
   }
 
@@ -123,7 +123,7 @@ void questions() {
     answer3 = "2. Mysteriet på greveholm";
 
     if (millis() > answerTimer) {
-      realAnswer = "ANSWER: x. Rudolf";
+      realAnswer = "Answer: 1. Tusen år till julafton";
     }
   }
 
@@ -136,7 +136,7 @@ void questions() {
     answer3 = "2. Kommer";
 
     if (millis() > answerTimer) {
-      realAnswer = "ANSWER: x. Rudolf";
+      realAnswer = "Answer: 1. Ankomst";
     }
   }
 
@@ -149,7 +149,7 @@ void questions() {
     answer3 = "2. Nazareth";
 
     if (millis() > answerTimer) {
-      realAnswer = "ANSWER: x. Rudolf";
+      realAnswer = "Answer: X. Betlehem";
     }
   }
 
@@ -162,7 +162,7 @@ void questions() {
     answer3 = "2. Britta";
 
     if (millis() > answerTimer) {
-      realAnswer = "ANSWER: x. Rudolf";
+      realAnswer = "Answer: 1. Anna";
     }
   }
 
@@ -175,7 +175,7 @@ void questions() {
     answer3 = "2. Peter Magnusson";
 
     if (millis() > answerTimer) {
-      realAnswer = "ANSWER: x. Rudolf";
+      realAnswer = "Answer: X. Gina Dirawi";
     }
   }
 
@@ -187,7 +187,7 @@ void questions() {
     answer3 = "2. Rose";
 
     if (millis() > answerTimer) {
-      realAnswer = "ANSWER: x. Rudolf";
+      realAnswer = "Answer: X. Mistletoe";
     }
   }
 
@@ -196,12 +196,12 @@ void questions() {
     date = "9th of December";
 
     question = "At what date does Lucia occur?";
-    answer1 = "1. 13th December";
-    answer2 = "X. 16th December";
-    answer3 = "2. 18th December";
+    answer1 = "1. 13th of December";
+    answer2 = "X. 16th of December";
+    answer3 = "2. 18th of December";
 
     if (millis() > answerTimer) {
-      realAnswer = "ANSWER: x. Rudolf";
+      realAnswer = "Answer: 1. 13th of December";
     }
   }
 
@@ -215,7 +215,7 @@ void questions() {
     answer3 = "2. 3";
 
     if (millis() > answerTimer) {
-      realAnswer = "ANSWER: x. Rudolf";
+      realAnswer = "Answer: 2. 3";
     }
   }
 
@@ -229,7 +229,7 @@ void questions() {
     answer3 = "2. \"Just like the ones I used to have\"";
 
     if (millis() > answerTimer) {
-      realAnswer = "ANSWER: x. Rudolf";
+      realAnswer = "Answer: 1. \"Just like the ones I used to know\"";
     }
   }
 
@@ -243,7 +243,7 @@ void questions() {
     answer3 = "2. The Grinch";
 
     if (millis() > answerTimer) {
-      realAnswer = "ANSWER: x. Rudolf";
+      realAnswer = "Answer: 2. The Grinch";
     }
   }
 
@@ -259,7 +259,7 @@ void questions() {
     drawThirdAdvent(width/1.4, height/1.35);
 
     if (millis() > answerTimer) {
-      realAnswer = "ANSWER: x. Rudolf";
+      realAnswer = "Answer: 2. 25th";
     }
   }
 
@@ -273,7 +273,7 @@ void questions() {
     answer3 = "2. 8";
 
     if (millis() > answerTimer) {
-      realAnswer = "ANSWER: x. Rudolf";
+      realAnswer = "Answer: X. 6";
     }
   }
   if (clickedSnowball[14]) {
@@ -286,7 +286,7 @@ void questions() {
     answer3 = "2. 9";
 
     if (millis() > answerTimer) {
-      realAnswer = "ANSWER: x. Rudolf";
+      realAnswer = "Answer: 1. 7";
     }
   }
   if (clickedSnowball[15]) {
@@ -296,10 +296,10 @@ void questions() {
     question = "What was the Christmas gift of the year 2008 in Sweden?";
     answer1 = "1. GPS";
     answer2 = "X. Flatscreen TV";
-    answer3 = "2. Experience";
+    answer3 = "2. An experience";
 
     if (millis() > answerTimer) {
-      realAnswer = "ANSWER: x. Rudolf";
+      realAnswer = "Answer: 2. An experience";
     }
   }
 
@@ -308,25 +308,25 @@ void questions() {
     date = "17th of December";
 
     question = "When does the Day of the gingerbread occur?";
-    answer1 = "1. 9dec";
-    answer2 = "X. 13dec";
-    answer3 = "2. 20dec";
+    answer1 = "1. 9th of December";
+    answer2 = "X. 13th of December";
+    answer3 = "2. 20th of December";
 
     if (millis() > answerTimer) {
-      realAnswer = "ANSWER: x. Rudolf";
+      realAnswer = "ANSWER: 1. 9th of December";
     }
   }
   if (clickedSnowball[17]) {
 
     date = "18th of December";
 
-    question = "What year did Kalle Ankas julafton premiere?";
-    answer1 = "1. 1959";
-    answer2 = "X. 1969";
-    answer3 = "2. 1979";
+    question = "What year did Kalle Ankas julafton premiere in Sweden?";
+    answer1 = "1. 1960";
+    answer2 = "X. 1961";
+    answer3 = "2. 1959";
 
     if (millis() > answerTimer) {
-      realAnswer = "ANSWER: x. Rudolf";
+      realAnswer = "Answer: 1. 1960";
     }
   }
 
@@ -340,7 +340,7 @@ void questions() {
     answer3 = "2. 25";
     
     if (millis() > answerTimer) {
-      realAnswer = "ANSWER: x. Rudolf";
+      realAnswer = "Answer: 2. 25";
     }
   }
 
@@ -355,7 +355,7 @@ void questions() {
     answer3 = "2. Frohe Weihnachten";
 
     if (millis() > answerTimer) {
-      realAnswer = "ANSWER: x. Rudolf";
+      realAnswer = "Answer: X. Buon Natale!";
     }
   }
 
@@ -369,7 +369,7 @@ void questions() {
     answer3 = "2. Roxette";
 
     if (millis() > answerTimer) {
-      realAnswer = "ANSWER: x. Rudolf";
+      realAnswer = "Answer: X. ABBA";
     }
   }
 
@@ -377,13 +377,13 @@ void questions() {
 
     date = "22nd of December";
 
-    question = "What is Santa Clauses name in Spanish";
+    question = "What is Santa Claus' name in Spanish";
     answer1 = "1. Papa Navidad";
     answer2 = "X. Papa Joel";
     answer3 = "2. Papa Noel";
 
     if (millis() > answerTimer) {
-      realAnswer = "ANSWER: x. Rudolf";
+      realAnswer = "Answer: 2. Papa Noel";
     }
   }
 
@@ -392,12 +392,12 @@ void questions() {
     date = "23rd of December";
 
     question = "Before santa, who brought us the gifts?";
-    answer1 = "1. Christmas Goat";
-    answer2 = "X. Christmas Reindeer";
-    answer3 = "2. Christmas Owl";
+    answer1 = "1. A goat";
+    answer2 = "X. A reindeer";
+    answer3 = "2. An owl";
 
     if (millis() > answerTimer) {
-      realAnswer = "ANSWER: x. Rudolf";
+      realAnswer = "Answer: 1. The Christmas Goat";
     }
   }
 
