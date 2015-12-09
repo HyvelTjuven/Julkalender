@@ -8,7 +8,7 @@ void drawDate() {
 }
 
 void automaticSnowball() {
-  if (minute()%11 >= 10) {
+  if (minute()%11 == 10) {
     answerTimer = millis() + 30000;
     clickedSnowball[day()-1] = true;
   }

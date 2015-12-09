@@ -441,7 +441,7 @@ void questions() {
 
     date = "21th of December";
 
-    question = "Which Swedish music group sang the song\n\"Happy New Year\"";
+    question = "Which Swedish music group sang the song\n\"Happy New Year\"?";
     answer1 = "1. Europe";
     answer2 = "X. ABBA";
     answer3 = "2. Roxette";

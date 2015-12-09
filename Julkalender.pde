@@ -26,4 +26,5 @@ void draw() {
   questions();
 
   println(millis() + " " + answerTimer);
+  println(minute()%11 + " " + second());
 }
