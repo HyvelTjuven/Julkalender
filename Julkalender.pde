@@ -20,7 +20,9 @@ void draw() {
   drawAllSnowballs();
   drawSnow();
   drawDate();
+  questions();
+  automaticSnowball();
   quizBox();
   
-  println(showQuiz);
+  println(second()%15);
 }

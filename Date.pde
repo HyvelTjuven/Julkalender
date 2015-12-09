@@ -8,6 +8,14 @@ void drawDate() {
 
 PImage nosnowball;
 
+void automaticSnowball() {
+  if (second()%15 > 10) {
+    clickedSnowball[day()-1] = true;
+  } else { 
+    clickedSnowball[day()-1] = false;
+  }
+}
+
 void daySnowball() {
   if (day() == 1);
   {

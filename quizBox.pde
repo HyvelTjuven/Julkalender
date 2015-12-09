@@ -11,11 +11,12 @@ Boolean showQuiz = false;
 
 void quizBox() {  
 
-  if (clickedSnowball[0] == true || clickedSnowball[1] == true || clickedSnowball[2] == true || clickedSnowball[3] == true || clickedSnowball[4] == true || 
-    clickedSnowball[5] == true || clickedSnowball[6] == true || clickedSnowball[7] == true || clickedSnowball[8] == true || clickedSnowball[9] == true || 
-    clickedSnowball[10] == true || clickedSnowball[11] == true || clickedSnowball[12] == true || clickedSnowball[13] == true || clickedSnowball[14] == true || 
-    clickedSnowball[15] == true || clickedSnowball[16] == true || clickedSnowball[17] == true || clickedSnowball[18] == true || clickedSnowball[19] == true || 
-    clickedSnowball[20] == true || clickedSnowball[21] == true || clickedSnowball[22] == true || clickedSnowball[23]== true) {
+  if (clickedSnowball[0] || clickedSnowball[1] || clickedSnowball[2] || clickedSnowball[3] || clickedSnowball[4] || 
+    clickedSnowball[5] || clickedSnowball[6] || clickedSnowball[7] || clickedSnowball[8] || clickedSnowball[9] || 
+    clickedSnowball[10] || clickedSnowball[11] || clickedSnowball[12] || clickedSnowball[13] || clickedSnowball[14] || 
+    clickedSnowball[15] || clickedSnowball[16] || clickedSnowball[17] || clickedSnowball[18] || clickedSnowball[19] || 
+    clickedSnowball[20] || clickedSnowball[21] || clickedSnowball[22] || clickedSnowball[23]) {
+
     showQuiz = true;
   } else {
     showQuiz = false;
@@ -59,4 +60,196 @@ void quizBox() {
   text(answer1, width/2, 600);
   text(answer2, width/2, 670);
   text(answer3, width/2, 740);
+}
+
+void questions() {
+  if (clickedSnowball[0]) {
+    date = "1st of December";
+    question = "Sunes Jul aired as a Christmas calendar on SVT 1991,\nwhat is the name of Sunes father?";
+    answer1 = "1. Sven";
+    answer2 = "X. Rudolf";
+    answer3 = "2. Lars";
+  }
+
+  if (clickedSnowball[1]) {
+    date = "2nd of December";
+    question = "What year did the Swedish Christmas calendar\nTeskedsgumman air on SVT for the first time?";
+    answer1 = "1. 1945";
+    answer2 = "X. 1931";
+    answer3 = "2. 1967";
+  }
+
+  if (clickedSnowball[0]) {
+    date = "1st of December";
+    question = "Sunes Jul aired as a Christmas calendar on SVT 1991,\nwhat is the name of Sunes father?";
+    answer1 = "1. Sven";
+    answer2 = "X. Rudolf";
+    answer3 = "2. Lars";
+  }
+
+  if (clickedSnowball[0]) {
+    date = "1st of December";
+    question = "Sunes Jul aired as a Christmas calendar on SVT 1991,\nwhat is the name of Sunes father?";
+    answer1 = "1. Sven";
+    answer2 = "X. Rudolf";
+    answer3 = "2. Lars";
+  }
+
+  if (clickedSnowball[0]) {
+    date = "1st of December";
+    question = "Sunes Jul aired as a Christmas calendar on SVT 1991,\nwhat is the name of Sunes father?";
+    answer1 = "1. Sven";
+    answer2 = "X. Rudolf";
+    answer3 = "2. Lars";
+  }
+
+  if (clickedSnowball[0]) {
+    date = "1st of December";
+    question = "Sunes Jul aired as a Christmas calendar on SVT 1991,\nwhat is the name of Sunes father?";
+    answer1 = "1. Sven";
+    answer2 = "X. Rudolf";
+    answer3 = "2. Lars";
+  }
+
+  if (clickedSnowball[0]) {
+    date = "1st of December";
+    question = "Sunes Jul aired as a Christmas calendar on SVT 1991,\nwhat is the name of Sunes father?";
+    answer1 = "1. Sven";
+    answer2 = "X. Rudolf";
+    answer3 = "2. Lars";
+  }
+
+  if (clickedSnowball[8]) {
+
+    date = "9th of December";
+
+    question = "What date do Lucia occur?";
+    answer1 = "1. 13th December";
+    answer2 = "X. 16th December";
+    answer3 = "2. 18th December";
+  }
+
+  if (clickedSnowball[9]) {
+
+    date = "10th of December";
+
+    question = "How many Wise Men brought gifts to Jesus?";
+    answer1 = "1. 5";
+    answer2 = "X. 2";
+    answer3 = "2. 3";
+  }
+
+  if (clickedSnowball[0]) {
+    date = "1st of December";
+    question = "Sunes Jul aired as a Christmas calendar on SVT 1991,\nwhat is the name of Sunes father?";
+    answer1 = "1. Sven";
+    answer2 = "X. Rudolf";
+    answer3 = "2. Lars";
+  }
+
+  if (clickedSnowball[0]) {
+    date = "1st of December";
+    question = "Sunes Jul aired as a Christmas calendar on SVT 1991,\nwhat is the name of Sunes father?";
+    answer1 = "1. Sven";
+    answer2 = "X. Rudolf";
+    answer3 = "2. Lars";
+  }
+
+  if (clickedSnowball[0]) {
+    date = "1st of December";
+    question = "Sunes Jul aired as a Christmas calendar on SVT 1991,\nwhat is the name of Sunes father?";
+    answer1 = "1. Sven";
+    answer2 = "X. Rudolf";
+    answer3 = "2. Lars";
+  }
+
+  if (clickedSnowball[0]) {
+    date = "1st of December";
+    question = "Sunes Jul aired as a Christmas calendar on SVT 1991,\nwhat is the name of Sunes father?";
+    answer1 = "1. Sven";
+    answer2 = "X. Rudolf";
+    answer3 = "2. Lars";
+  }
+
+  if (clickedSnowball[0]) {
+    date = "1st of December";
+    question = "Sunes Jul aired as a Christmas calendar on SVT 1991,\nwhat is the name of Sunes father?";
+    answer1 = "1. Sven";
+    answer2 = "X. Rudolf";
+    answer3 = "2. Lars";
+  }
+  if (clickedSnowball[0]) {
+    date = "1st of December";
+    question = "Sunes Jul aired as a Christmas calendar on SVT 1991,\nwhat is the name of Sunes father?";
+    answer1 = "1. Sven";
+    answer2 = "X. Rudolf";
+    answer3 = "2. Lars";
+  }
+  if (clickedSnowball[0]) {
+    date = "1st of December";
+    question = "Sunes Jul aired as a Christmas calendar on SVT 1991,\nwhat is the name of Sunes father?";
+    answer1 = "1. Sven";
+    answer2 = "X. Rudolf";
+    answer3 = "2. Lars";
+  }
+  if (clickedSnowball[0]) {
+    date = "1st of December";
+    question = "Sunes Jul aired as a Christmas calendar on SVT 1991,\nwhat is the name of Sunes father?";
+    answer1 = "1. Sven";
+    answer2 = "X. Rudolf";
+    answer3 = "2. Lars";
+  }
+  if (clickedSnowball[0]) {
+    date = "1st of December";
+    question = "Sunes Jul aired as a Christmas calendar on SVT 1991,\nwhat is the name of Sunes father?";
+    answer1 = "1. Sven";
+    answer2 = "X. Rudolf";
+    answer3 = "2. Lars";
+  }
+  if (clickedSnowball[0]) {
+    date = "1st of December";
+    question = "Sunes Jul aired as a Christmas calendar on SVT 1991,\nwhat is the name of Sunes father?";
+    answer1 = "1. Sven";
+    answer2 = "X. Rudolf";
+    answer3 = "2. Lars";
+  }
+  if (clickedSnowball[0]) {
+    date = "1st of December";
+    question = "Sunes Jul aired as a Christmas calendar on SVT 1991,\nwhat is the name of Sunes father?";
+    answer1 = "1. Sven";
+    answer2 = "X. Rudolf";
+    answer3 = "2. Lars";
+  }
+
+  if (clickedSnowball[0]) {
+    date = "1st of December";
+    question = "Sunes Jul aired as a Christmas calendar on SVT 1991,\nwhat is the name of Sunes father?";
+    answer1 = "1. Sven";
+    answer2 = "X. Rudolf";
+    answer3 = "2. Lars";
+  }
+
+  if (clickedSnowball[0]) {
+    date = "1st of December";
+    question = "Sunes Jul aired as a Christmas calendar on SVT 1991,\nwhat is the name of Sunes father?";
+    answer1 = "1. Sven";
+    answer2 = "X. Rudolf";
+    answer3 = "2. Lars";
+  }
+
+  if (clickedSnowball[0]) {
+    date = "1st of December";
+    question = "Sunes Jul aired as a Christmas calendar on SVT 1991,\nwhat is the name of Sunes father?";
+    answer1 = "1. Sven";
+    answer2 = "X. Rudolf";
+    answer3 = "2. Lars";
+  }
+
+  if (clickedSnowball[0]) {
+    date = "1st of December";
+    question = "Sunes Jul aired as a Christmas calendar on SVT 1991,\nwhat is the name of Sunes father?";
+    answer1 = "1. Sven";
+    answer2 = "X. Rudolf";
+    answer3 = "2. Lars";
+  }
 }

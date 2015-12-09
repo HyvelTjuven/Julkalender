@@ -4,13 +4,6 @@ void mouseClicked() {
 
   // DECEMBER 1
   if (mouseX > 250+300 && mouseY > 750+175 && mouseX < 250+300+135 && mouseY < 750+175+125) {
-
-    date = "1st of December";
-    question = "Sunes Jul aired as a Christmas calendar on SVT 1991,\nwhat is the name of Sunes father?";
-    answer1 = "1. Sven";
-    answer2 = "X. Rudolf";
-    answer3 = "2. Lars";
-
     clickedSnowball[0] = true;
   } else {
     clickedSnowball[0] = false;
@@ -19,13 +12,6 @@ void mouseClicked() {
 
   // DECEMBER 2
   if (mouseX > 395+300 && mouseY > 750+175 && mouseX < 395+300+135 && mouseY < 750+175+125) {
-
-    date = "2nd of December";
-    question = "What year did the Swedish Christmas calendar\nTeskedsgumman air on SVT for the first time?";
-    answer1 = "1. 1945";
-    answer2 = "X. 1931";
-    answer3 = "2. 1967";
-
     clickedSnowball[1] = true;
   } else {
     clickedSnowball[1] = false;
@@ -113,31 +99,20 @@ void mouseClicked() {
   //DECEMBER 9
   if (mouseX > 605+300 && mouseY > 645+175 && mouseX < 605+300+135 && mouseY < 645+175+125) {
 
-    date = "9th of December";
-
-    question = "What date do Lucia occur?";
-    answer1 = "1. 13th December";
-    answer2 = "X. 16th December";
-    answer3 = "2. 18th December";
-
     clickedSnowball[8] = true;
   } else {
     clickedSnowball[8] = false;
   }
+
+
   //DECEMBER 10
   if (mouseX > 755+300 && mouseY > 645+175 && mouseX < 755+300+135 && mouseY < 645+175+125) {
-
-    date = "10th of December";
-
-    question = "How many Wise Men brought gifts to Jesus?";
-    answer1 = "1. 5";
-    answer2 = "X. 2";
-    answer3 = "2. 3";
-
     clickedSnowball[9] = true;
   } else {
     clickedSnowball[9] = false;
   }
+
+
   //DECEMBER 11
   if (mouseX > 900+300 && mouseY > 645+175 && mouseX < 900+300+135 && mouseY < 645+175+125) {
 
@@ -152,6 +127,7 @@ void mouseClicked() {
   } else {
     clickedSnowball[10] = false;
   }
+  
   //DECEMBER 12
   if (mouseX > 365+300 && mouseY > 545+175 && mouseX < 365+300+135 && mouseY < 545+175+125) {
 
@@ -309,7 +285,7 @@ void mouseClicked() {
   } else {
     clickedSnowball[21] = false;
   }
-  //DECEMBER 23
+
   if (mouseX > 540+300 && mouseY > 245+175 && mouseX < 540+300+135 && mouseY < 245+175+135) {
 
     date = "23rd of December";
