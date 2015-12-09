@@ -10,11 +10,12 @@ void setup() {
   setupSnow();
   noStroke();
   font =loadFont("Christmas-100.vlw");
-  questionFont = loadFont("ArialMT-48.vlw");
+  questionFont = createFont("KGRayofSunshine.ttf", 100);
 }
 
 
 void draw() {
+  //background(myBackground);
   image(myBackground, 0, 0, width, height);
   light();
   drawAllSnowballs();

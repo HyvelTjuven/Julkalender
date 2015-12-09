@@ -1,4 +1,5 @@
-PImage snowball;
+PImage[] snowball = new PImage[2];
+//PImage snowball;
 PImage snowball1;
 PImage snowball2;
 PImage snowball3;
@@ -24,9 +25,10 @@ PImage snowball22;
 PImage snowball23;
 PImage snowball24;
 
-void drawAllSnowballs(){
- 
-    fill(125);
+void drawAllSnowballs() {
+
+  fill(100);
+  textSize(35);
   drawSnowball(250+300, 750+175);
   text("1", 250+365, 750+240);
 
@@ -98,17 +100,16 @@ void drawAllSnowballs(){
 
   drawSnowball23(680+300, 245+175);
   text("24", 680+365, 245+240);
-  
 }
 
 void drawSnowball(int xPos, int yPos) {
-  snowball = loadImage("SnowballCENTER.png");
-  image(snowball, xPos, yPos);
+  snowball[0] = loadImage("SnowballCENTER.png");
+  image(snowball[0], xPos, yPos);
 }
 
 void drawSnowball1(int xPos, int yPos) {
-  snowball1 = loadImage("SnowballCENTER.png");
-  image(snowball1, xPos, yPos);
+  snowball[1] = loadImage("SnowballCENTER.png");
+  image(snowball[1], xPos, yPos);
 }
 
 void drawSnowball2(int xPos, int yPos) {

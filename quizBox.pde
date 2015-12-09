@@ -20,9 +20,13 @@ int answerTimer;
 int timerLength;
 
 
-Boolean showQuiz = false;
+Boolean showQuiz;
 
 void quizBox() {  
+
+  fill(255, 200);
+  rectMode(CENTER);
+  rect(xPos, yPos, 1200, 700, 20);
 
   if (clickedSnowball[0] || clickedSnowball[1] || clickedSnowball[2] || clickedSnowball[3] || clickedSnowball[4] || 
     clickedSnowball[5] || clickedSnowball[6] || clickedSnowball[7] || clickedSnowball[8] || clickedSnowball[9] || 
@@ -40,7 +44,7 @@ void quizBox() {
     xPos = width/2;
     yPos = height/1.7;
 
-    fill(0, 200);
+    fill(0, 100);
     timerLength = (answerTimer - millis())/30;
 
     if (timerLength < 0) {
@@ -62,27 +66,21 @@ void quizBox() {
   }
 
 
-  fill(255, 200);
-  rectMode(CENTER);
-  rect(xPos, yPos, 1200, 700, 20);
-
-
-
   textAlign(CENTER);
   textFont(questionFont);
-  fill(0);
+  fill(50);
 
 
   textSize(30);  
-  text(date, width/1.35, 330);
+  text(date, width/1.4, 350);
+
+  textSize(45);
+  text(question, width/2, 425);
 
   textSize(40);
-  text(question, width/2, 450);
-
-  textSize(35);
-  text(answer1, width/2, 600);
-  text(answer2, width/2, 670);
-  text(answer3, width/2, 740);
+  text(answer1, width/2, 620);
+  text(answer2, width/2, 690);
+  text(answer3, width/2, 760);
 
   textSize(45);
   text(realAnswer, width/2, 850);
@@ -98,32 +96,40 @@ void questions() {
     answer3 = "2. Lars";
 
     if (millis() > answerTimer) {
-      realAnswer = "Answer: X. Rudolf";
+      realAnswer = "Answer:\nRudolf";
+    }
+
+    if (millis() > answerTimer + 30000) {
+      clickedSnowball[0] = false;
     }
   }
 
   if (clickedSnowball[1]) {
     date = "2nd of December";
     question = "What year did the Swedish Christmas calendar\nTeskedsgumman air on SVT for the first time?";
-    answer1 = "1. 1945";
-    answer2 = "X. 1931";
+    answer1 = "1. 1981";
+    answer2 = "X. 1979";
     answer3 = "2. 1967";
 
     if (millis() > answerTimer) {
-      realAnswer = "Answer: 2. 1967";
+      realAnswer = "Answer:\n1967";
+    }
+
+    if (millis() > answerTimer + 30000) {
+      clickedSnowball[0] = false;
     }
   }
 
   if (clickedSnowball[2]) {
 
     date = "3rd of December";
-    question = "What is the name of this years SVT christmas calendar?";
+    question = "What is the name of this years\nSVT christmas calendar?";
     answer1 = "1. Tusen år till julafton";
     answer2 = "X. Pelle Svanslös";
     answer3 = "2. Mysteriet på greveholm";
 
     if (millis() > answerTimer) {
-      realAnswer = "Answer: 1. Tusen år till julafton";
+      realAnswer = "Answer:\nTusen år till julafton";
     }
   }
 
@@ -136,7 +142,11 @@ void questions() {
     answer3 = "2. Kommer";
 
     if (millis() > answerTimer) {
-      realAnswer = "Answer: 1. Ankomst";
+      realAnswer = "Answer:\nAnkomst";
+    }
+
+    if (millis() > answerTimer + 30000) {
+      clickedSnowball[0] = false;
     }
   }
 
@@ -149,20 +159,28 @@ void questions() {
     answer3 = "2. Nazareth";
 
     if (millis() > answerTimer) {
-      realAnswer = "Answer: X. Betlehem";
+      realAnswer = "Answer:\nBetlehem";
+    }
+
+    if (millis() > answerTimer + 30000) {
+      clickedSnowball[0] = false;
     }
   }
 
   if (clickedSnowball[5]) {
-    drawSecondAdvent(width/1.5, height/1.5);
+    drawSecondAdvent(width/1.5, height/2);
     date = "6th of December";
     question = "What was the name of Jesus grandmother?";
-    answer1 = "1. Anna";
-    answer2 = "X. Sara";
-    answer3 = "2. Britta";
+    answer1 = "1. Anne";
+    answer2 = "X. Maria";
+    answer3 = "2. Vanessa";
 
     if (millis() > answerTimer) {
-      realAnswer = "Answer: 1. Anna";
+      realAnswer = "Answer:\nAnne";
+    }
+
+    if (millis() > answerTimer + 30000) {
+      clickedSnowball[0] = false;
     }
   }
 
@@ -175,7 +193,11 @@ void questions() {
     answer3 = "2. Peter Magnusson";
 
     if (millis() > answerTimer) {
-      realAnswer = "Answer: X. Gina Dirawi";
+      realAnswer = "Answer:\nGina Dirawi";
+    }
+
+    if (millis() > answerTimer + 30000) {
+      clickedSnowball[0] = false;
     }
   }
 
@@ -187,7 +209,11 @@ void questions() {
     answer3 = "2. Rose";
 
     if (millis() > answerTimer) {
-      realAnswer = "Answer: X. Mistletoe";
+      realAnswer = "Answer:\nMistletoe";
+    }
+
+    if (millis() > answerTimer + 30000) {
+      clickedSnowball[0] = false;
     }
   }
 
@@ -201,7 +227,15 @@ void questions() {
     answer3 = "2. 18th of December";
 
     if (millis() > answerTimer) {
-      realAnswer = "Answer: 1. 13th of December";
+      realAnswer = "Answer:\n13th of December";
+    }
+
+    if (millis() > answerTimer + 30000) {
+      clickedSnowball[0] = false;
+    }
+
+    if (millis() > answerTimer + 30000) {
+      clickedSnowball[8] = false;
     }
   }
 
@@ -215,7 +249,11 @@ void questions() {
     answer3 = "2. 3";
 
     if (millis() > answerTimer) {
-      realAnswer = "Answer: 2. 3";
+      realAnswer = "Answer:\n3";
+    }
+
+    if (millis() > answerTimer + 30000) {
+      clickedSnowball[0] = false;
     }
   }
 
@@ -229,7 +267,11 @@ void questions() {
     answer3 = "2. \"Just like the ones I used to have\"";
 
     if (millis() > answerTimer) {
-      realAnswer = "Answer: 1. \"Just like the ones I used to know\"";
+      realAnswer = "Answer:\n\"Just like the ones I used to know\"";
+    }
+
+    if (millis() > answerTimer + 30000) {
+      clickedSnowball[0] = false;
     }
   }
 
@@ -243,7 +285,11 @@ void questions() {
     answer3 = "2. The Grinch";
 
     if (millis() > answerTimer) {
-      realAnswer = "Answer: 2. The Grinch";
+      realAnswer = "Answer:\nThe Grinch";
+    }
+
+    if (millis() > answerTimer + 30000) {
+      clickedSnowball[0] = false;
     }
   }
 
@@ -255,11 +301,15 @@ void questions() {
     answer2 = "X. 24th";
     answer3 = "2. 25th";
 
-    drawLucia(width/5, height/1.6);
-    drawThirdAdvent(width/1.4, height/1.35);
+    drawLucia(width/5, height/2.1);
+    drawThirdAdvent(width/1.4, height/1.7);
 
     if (millis() > answerTimer) {
-      realAnswer = "Answer: 2. 25th";
+      realAnswer = "Answer:\n25th";
+    }
+
+    if (millis() > answerTimer + 30000) {
+      clickedSnowball[0] = false;
     }
   }
 
@@ -273,33 +323,45 @@ void questions() {
     answer3 = "2. 8";
 
     if (millis() > answerTimer) {
-      realAnswer = "Answer: X. 6";
+      realAnswer = "Answer:\n6";
+    }
+
+    if (millis() > answerTimer + 30000) {
+      clickedSnowball[0] = false;
     }
   }
   if (clickedSnowball[14]) {
 
     date = "15th of December";
 
-    question = "How many lights does a classic electrical adventljusstake have?";
+    question = "How many lights does a classic electric\nadventljusstake have?";
     answer1 = "1. 7";
     answer2 = "X. 10";
     answer3 = "2. 9";
 
     if (millis() > answerTimer) {
-      realAnswer = "Answer: 1. 7";
+      realAnswer = "Answer:\n7";
+    }
+
+    if (millis() > answerTimer + 30000) {
+      clickedSnowball[0] = false;
     }
   }
   if (clickedSnowball[15]) {
 
     date = "16th of December";
 
-    question = "What was the Christmas gift of the year 2008 in Sweden?";
+    question = "What was the Christmas gift of the year\n2008 in Sweden?";
     answer1 = "1. GPS";
     answer2 = "X. Flatscreen TV";
     answer3 = "2. An experience";
 
     if (millis() > answerTimer) {
-      realAnswer = "Answer: 2. An experience";
+      realAnswer = "Answer:\nAn experience";
+    }
+
+    if (millis() > answerTimer + 30000) {
+      clickedSnowball[0] = false;
     }
   }
 
@@ -313,7 +375,11 @@ void questions() {
     answer3 = "2. 20th of December";
 
     if (millis() > answerTimer) {
-      realAnswer = "ANSWER: 1. 9th of December";
+      realAnswer = "ANSWER:\n9th of December";
+    }
+
+    if (millis() > answerTimer + 30000) {
+      clickedSnowball[0] = false;
     }
   }
   if (clickedSnowball[17]) {
@@ -326,7 +392,11 @@ void questions() {
     answer3 = "2. 1959";
 
     if (millis() > answerTimer) {
-      realAnswer = "Answer: 1. 1960";
+      realAnswer = "Answer:\n1960";
+    }
+
+    if (millis() > answerTimer + 30000) {
+      clickedSnowball[0] = false;
     }
   }
 
@@ -338,14 +408,18 @@ void questions() {
     answer1 = "1. 30";
     answer2 = "X. 20";
     answer3 = "2. 25";
-    
+
     if (millis() > answerTimer) {
-      realAnswer = "Answer: 2. 25";
+      realAnswer = "Answer:\n25";
+    }
+
+    if (millis() > answerTimer + 30000) {
+      clickedSnowball[0] = false;
     }
   }
 
   if (clickedSnowball[19]) {
-    drawFourthAdvent(width/1.6, height/1.5);
+    drawFourthAdvent(width/1.6, height/2);
 
     date = "20th of December";
 
@@ -355,7 +429,11 @@ void questions() {
     answer3 = "2. Frohe Weihnachten";
 
     if (millis() > answerTimer) {
-      realAnswer = "Answer: X. Buon Natale!";
+      realAnswer = "Answer:\nBuon Natale!";
+    }
+
+    if (millis() > answerTimer + 30000) {
+      clickedSnowball[0] = false;
     }
   }
 
@@ -363,13 +441,17 @@ void questions() {
 
     date = "21th of December";
 
-    question = "Which Swedish music group sang the song \"Happy New Year\"";
+    question = "Which Swedish music group sang the song\n\"Happy New Year\"";
     answer1 = "1. Europe";
     answer2 = "X. ABBA";
     answer3 = "2. Roxette";
 
     if (millis() > answerTimer) {
-      realAnswer = "Answer: X. ABBA";
+      realAnswer = "Answer:\nABBA";
+    }
+
+    if (millis() > answerTimer + 30000) {
+      clickedSnowball[0] = false;
     }
   }
 
@@ -383,7 +465,11 @@ void questions() {
     answer3 = "2. Papa Noel";
 
     if (millis() > answerTimer) {
-      realAnswer = "Answer: 2. Papa Noel";
+      realAnswer = "Answer:\nPapa Noel";
+    }
+
+    if (millis() > answerTimer + 30000) {
+      clickedSnowball[0] = false;
     }
   }
 
@@ -397,19 +483,27 @@ void questions() {
     answer3 = "2. An owl";
 
     if (millis() > answerTimer) {
-      realAnswer = "Answer: 1. The Christmas Goat";
+      realAnswer = "Answer:\nThe Christmas Goat";
+    }
+
+    if (millis() > answerTimer + 30000) {
+      clickedSnowball[0] = false;
     }
   }
 
   if (clickedSnowball[23]) {
-    drawSanta(width/3, height/2.3);
+    drawSanta(width/3.1, height/2.3);
 
     date = "24th of December";
 
-    question = "MERRY CHRISTMAS!";
+    question = "Merry christmas!";
     answer1 = "";
     answer2 = "";
     answer3 = "";
+
+    if (millis() > answerTimer + 30000) {
+      clickedSnowball[0] = false;
+    }
   }
 }
 
