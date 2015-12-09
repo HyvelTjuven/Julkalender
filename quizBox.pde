@@ -17,6 +17,8 @@ String answer3;
 String realAnswer;
 
 int answerTimer;
+int timerLength;
+
 
 Boolean showQuiz = false;
 
@@ -72,14 +74,13 @@ void quizBox() {
   text(answer1, width/2, 600);
   text(answer2, width/2, 670);
   text(answer3, width/2, 740);
-  
+
   textSize(45);
-  text(realAnswer, width/2, 800);
+  text(realAnswer, width/2, 850);
 }
 
 void questions() {
   if (clickedSnowball[0]) {
-    drawFirstAdvent(width/4, height/3);
 
     date = "1st of December";
     question = "Sunes Jul aired as a Christmas calendar on SVT 1991,\nwhat is the name of Sunes father?";
@@ -87,9 +88,18 @@ void questions() {
     answer2 = "X. Rudolf";
     answer3 = "2. Lars";
 
-    
-    if (millis() > answerTimer){
-      realAnswer = "ANSWER: x. Rudolf";
+    fill(0, 100);
+    timerLength = (answerTimer - millis())/30;
+
+    if (timerLength < 0) {
+      timerLength = 0;
+    }
+
+    rect(width/2, 850, timerLength, 60, 20);
+
+
+    if (millis() > answerTimer) {
+      realAnswer = "Answer: x. Rudolf";
     }
   }
 
@@ -99,6 +109,19 @@ void questions() {
     answer1 = "1. 1945";
     answer2 = "X. 1931";
     answer3 = "2. 1967";
+
+    fill(0, 100);
+    timerLength = (answerTimer - millis())/30;
+
+    if (timerLength < 0) {
+      timerLength = 0;
+    }
+
+    rect(width/2, 850, timerLength, 60, 20);
+
+    if (millis() > answerTimer) {
+      realAnswer = "ANSWER: x. Rudolf";
+    }
   }
 
   if (clickedSnowball[2]) {
@@ -108,6 +131,19 @@ void questions() {
     answer1 = "1. Tusen år till julafton";
     answer2 = "X. Pelle Svanslös";
     answer3 = "2. Mysteriet på greveholm";
+
+    fill(0, 100);
+    timerLength = (answerTimer - millis())/30;
+
+    if (timerLength < 0) {
+      timerLength = 0;
+    }
+
+    rect(width/2, 850, timerLength, 60, 20);
+
+    if (millis() > answerTimer) {
+      realAnswer = "ANSWER: x. Rudolf";
+    }
   }
 
   if (clickedSnowball[3]) {
@@ -117,6 +153,19 @@ void questions() {
     answer1 = "1. Ankomst";
     answer2 = "X. Jul";
     answer3 = "2. Kommer";
+
+    fill(0, 100);
+    timerLength = (answerTimer - millis())/30;
+
+    if (timerLength < 0) {
+      timerLength = 0;
+    }
+
+    rect(width/2, 850, timerLength, 60, 20);
+
+    if (millis() > answerTimer) {
+      realAnswer = "ANSWER: x. Rudolf";
+    }
   }
 
   if (clickedSnowball[4]) {
@@ -126,16 +175,41 @@ void questions() {
     answer1 = "1. Jerusalem";
     answer2 = "X. Betlehem";
     answer3 = "2. Nazareth";
+
+    fill(0, 100);
+    timerLength = (answerTimer - millis())/30;
+
+    if (timerLength < 0) {
+      timerLength = 0;
+    }
+
+    rect(width/2, 850, timerLength, 60, 20);
+
+    if (millis() > answerTimer) {
+      realAnswer = "ANSWER: x. Rudolf";
+    }
   }
 
   if (clickedSnowball[5]) {
-    drawSecondAdvent(width/4, height/3);
-
+    drawSecondAdvent(width/1.5, height/1.5);
     date = "6th of December";
     question = "What was the name of Jesus grandmother?";
     answer1 = "1. Anna";
     answer2 = "X. Sara";
     answer3 = "2. Britta";
+
+    fill(0, 100);
+    timerLength = (answerTimer - millis())/30;
+
+    if (timerLength < 0) {
+      timerLength = 0;
+    }
+
+    rect(width/2, 850, timerLength, 60, 20);
+
+    if (millis() > answerTimer) {
+      realAnswer = "ANSWER: x. Rudolf";
+    }
   }
 
   if (clickedSnowball[6]) {
@@ -145,6 +219,19 @@ void questions() {
     answer1 = "1. Arne Weise";
     answer2 = "X. Gina Dirawi";
     answer3 = "2. Peter Magnusson";
+
+    fill(0, 100);
+    timerLength = (answerTimer - millis())/30;
+
+    if (timerLength < 0) {
+      timerLength = 0;
+    }
+
+    rect(width/2, 850, timerLength, 60, 20);
+
+    if (millis() > answerTimer) {
+      realAnswer = "ANSWER: x. Rudolf";
+    }
   }
 
   if (clickedSnowball[7]) {
@@ -153,6 +240,19 @@ void questions() {
     answer1 = "1. Pinetree";
     answer2 = "X. Mistletoe";
     answer3 = "2. Rose";
+
+    fill(0, 100);
+    timerLength = (answerTimer - millis())/30;
+
+    if (timerLength < 0) {
+      timerLength = 0;
+    }
+
+    rect(width/2, 850, timerLength, 60, 20);
+
+    if (millis() > answerTimer) {
+      realAnswer = "ANSWER: x. Rudolf";
+    }
   }
 
   if (clickedSnowball[8]) {
@@ -163,6 +263,19 @@ void questions() {
     answer1 = "1. 13th December";
     answer2 = "X. 16th December";
     answer3 = "2. 18th December";
+
+    fill(0, 100);
+    timerLength = (answerTimer - millis())/30;
+
+    if (timerLength < 0) {
+      timerLength = 0;
+    }
+
+    rect(width/2, 850, timerLength, 60, 20);
+
+    if (millis() > answerTimer) {
+      realAnswer = "ANSWER: x. Rudolf";
+    }
   }
 
   if (clickedSnowball[9]) {
@@ -173,6 +286,19 @@ void questions() {
     answer1 = "1. 5";
     answer2 = "X. 2";
     answer3 = "2. 3";
+
+    fill(0, 100);
+    timerLength = (answerTimer - millis())/30;
+
+    if (timerLength < 0) {
+      timerLength = 0;
+    }
+
+    rect(width/2, 850, timerLength, 60, 20);
+
+    if (millis() > answerTimer) {
+      realAnswer = "ANSWER: x. Rudolf";
+    }
   }
 
   if (clickedSnowball[10]) {
@@ -183,6 +309,19 @@ void questions() {
     answer1 = "1. \"Just like the ones I used to know\"";
     answer2 = "X. \"Just like the ones I used to go\"";
     answer3 = "2. \"Just like the ones I used to have\"";
+
+    fill(0, 100);
+    timerLength = (answerTimer - millis())/30;
+
+    if (timerLength < 0) {
+      timerLength = 0;
+    }
+
+    rect(width/2, 850, timerLength, 60, 20);
+
+    if (millis() > answerTimer) {
+      realAnswer = "ANSWER: x. Rudolf";
+    }
   }
 
   if (clickedSnowball[11]) {
@@ -193,17 +332,43 @@ void questions() {
     answer1 = "1. Snoopy";
     answer2 = "X. Yeti";
     answer3 = "2. The Grinch";
+
+    fill(0, 100);
+    timerLength = (answerTimer - millis())/30;
+
+    if (timerLength < 0) {
+      timerLength = 0;
+    }
+
+    rect(width/2, 850, timerLength, 60, 20);
+
+    if (millis() > answerTimer) {
+      realAnswer = "ANSWER: x. Rudolf";
+    }
   }
 
   if (clickedSnowball[12]) {
-drawLucia(width/5, height/3.7);
-    drawThirdAdvent(width/4.2, height/2);
+    drawLucia(width/5, height/1.6);
+    drawThirdAdvent(width/1.4, height/1.35);
     date = "13th of December";
 
     question = "On what date is Christmas day?";
     answer1 = "1. 23rd";
     answer2 = "X. 24th";
     answer3 = "2. 25th";
+
+    fill(0, 100);
+    timerLength = (answerTimer - millis())/30;
+
+    if (timerLength < 0) {
+      timerLength = 0;
+    }
+
+    rect(width/2, 850, timerLength, 60, 20);
+
+    if (millis() > answerTimer) {
+      realAnswer = "ANSWER: x. Rudolf";
+    }
   }
 
   if (clickedSnowball[13]) {
@@ -214,6 +379,19 @@ drawLucia(width/5, height/3.7);
     answer1 = "1. 9";
     answer2 = "X. 6";
     answer3 = "2. 8";
+
+    fill(0, 100);
+    timerLength = (answerTimer - millis())/30;
+
+    if (timerLength < 0) {
+      timerLength = 0;
+    }
+
+    rect(width/2, 850, timerLength, 60, 20);
+
+    if (millis() > answerTimer) {
+      realAnswer = "ANSWER: x. Rudolf";
+    }
   }
   if (clickedSnowball[14]) {
 
@@ -223,6 +401,19 @@ drawLucia(width/5, height/3.7);
     answer1 = "1. 7";
     answer2 = "X. 10";
     answer3 = "2. 9";
+
+    fill(0, 100);
+    timerLength = (answerTimer - millis())/30;
+
+    if (timerLength < 0) {
+      timerLength = 0;
+    }
+
+    rect(width/2, 850, timerLength, 60, 20);
+
+    if (millis() > answerTimer) {
+      realAnswer = "ANSWER: x. Rudolf";
+    }
   }
   if (clickedSnowball[15]) {
 
@@ -232,7 +423,21 @@ drawLucia(width/5, height/3.7);
     answer1 = "1. GPS";
     answer2 = "X. Flatscreen TV";
     answer3 = "2. Experience";
+
+    fill(0, 100);
+    timerLength = (answerTimer - millis())/30;
+
+    if (timerLength < 0) {
+      timerLength = 0;
+    }
+
+    rect(width/2, 850, timerLength, 60, 20);
+
+    if (millis() > answerTimer) {
+      realAnswer = "ANSWER: x. Rudolf";
+    }
   }
+
   if (clickedSnowball[16]) {
 
     date = "17th of December";
@@ -241,6 +446,19 @@ drawLucia(width/5, height/3.7);
     answer1 = "1. 9dec";
     answer2 = "X. 13dec";
     answer3 = "2. 20dec";
+
+    fill(0, 100);
+    timerLength = (answerTimer - millis())/30;
+
+    if (timerLength < 0) {
+      timerLength = 0;
+    }
+
+    rect(width/2, 850, timerLength, 60, 20);
+
+    if (millis() > answerTimer) {
+      realAnswer = "ANSWER: x. Rudolf";
+    }
   }
   if (clickedSnowball[17]) {
 
@@ -250,7 +468,21 @@ drawLucia(width/5, height/3.7);
     answer1 = "1. 1959";
     answer2 = "X. 1969";
     answer3 = "2. 1979";
+
+    fill(0, 100);
+    timerLength = (answerTimer - millis())/30;
+
+    if (timerLength < 0) {
+      timerLength = 0;
+    }
+
+    rect(width/2, 850, timerLength, 60, 20);
+
+    if (millis() > answerTimer) {
+      realAnswer = "ANSWER: x. Rudolf";
+    }
   }
+
   if (clickedSnowball[18]) {
 
     date = "19th of December";
@@ -259,9 +491,23 @@ drawLucia(width/5, height/3.7);
     answer1 = "1. 30";
     answer2 = "X. 20";
     answer3 = "2. 25";
+
+    fill(0, 100);
+    timerLength = (answerTimer - millis())/30;
+
+    if (timerLength < 0) {
+      timerLength = 0;
+    }
+
+    rect(width/2, 850, timerLength, 60, 20);
+
+    if (millis() > answerTimer) {
+      realAnswer = "ANSWER: x. Rudolf";
+    }
   }
+
   if (clickedSnowball[19]) {
-    drawFourthAdvent(width/4.5, height/3);
+    drawFourthAdvent(width/1.6, height/1.5);
 
     date = "20th of December";
 
@@ -269,6 +515,19 @@ drawLucia(width/5, height/3.7);
     answer1 = "1. Feliz Navidad";
     answer2 = "X. Buon Natale";
     answer3 = "2. Frohe Weihnachten";
+
+    fill(0, 100);
+    timerLength = (answerTimer - millis())/30;
+
+    if (timerLength < 0) {
+      timerLength = 0;
+    }
+
+    rect(width/2, 850, timerLength, 60, 20);
+
+    if (millis() > answerTimer) {
+      realAnswer = "ANSWER: x. Rudolf";
+    }
   }
 
   if (clickedSnowball[20]) {
@@ -279,6 +538,19 @@ drawLucia(width/5, height/3.7);
     answer1 = "1. Europe";
     answer2 = "X. ABBA";
     answer3 = "2. Roxette";
+
+    fill(0, 100);
+    timerLength = (answerTimer - millis())/30;
+
+    if (timerLength < 0) {
+      timerLength = 0;
+    }
+
+    rect(width/2, 850, timerLength, 60, 20);
+
+    if (millis() > answerTimer) {
+      realAnswer = "ANSWER: x. Rudolf";
+    }
   }
 
   if (clickedSnowball[21]) {
@@ -289,6 +561,19 @@ drawLucia(width/5, height/3.7);
     answer1 = "1. Papa Navidad";
     answer2 = "X. Papa Joel";
     answer3 = "2. Papa Noel";
+
+    fill(0, 100);
+    timerLength = (answerTimer - millis())/30;
+
+    if (timerLength < 0) {
+      timerLength = 0;
+    }
+
+    rect(width/2, 850, timerLength, 60, 20);
+
+    if (millis() > answerTimer) {
+      realAnswer = "ANSWER: x. Rudolf";
+    }
   }
 
   if (clickedSnowball[22]) {
@@ -299,10 +584,23 @@ drawLucia(width/5, height/3.7);
     answer1 = "1. Christmas Goat";
     answer2 = "X. Christmas Reindeer";
     answer3 = "2. Christmas Owl";
+
+    fill(0, 100);
+    timerLength = (answerTimer - millis())/30;
+
+    if (timerLength < 0) {
+      timerLength = 0;
+    }
+
+    rect(width/2, 850, timerLength, 60, 20);
+
+    if (millis() > answerTimer) {
+      realAnswer = "ANSWER: x. Rudolf";
+    }
   }
 
   if (clickedSnowball[23]) {
-        drawSanta(width/3.2, height/2.3);
+    drawSanta(width/3, height/2.3);
 
     date = "24th of December";
 
@@ -318,7 +616,7 @@ void drawFirstAdvent(int xPos, int yPos) {
   image(firstAdvent, xPos, yPos);
 }
 
-void drawSecondAdvent(int xPos, int yPos) {
+void drawSecondAdvent(float xPos, float yPos) {
   secondAdvent = loadImage("ljus2.png");
   image(secondAdvent, xPos, yPos);
 }
