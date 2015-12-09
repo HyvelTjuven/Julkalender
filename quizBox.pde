@@ -9,6 +9,8 @@ String answer3;
 
 String realAnswer;
 
+int answerTimer;
+
 Boolean showQuiz = false;
 
 void quizBox() {  
@@ -38,6 +40,7 @@ void quizBox() {
     answer1 = "";
     answer2 = "";
     answer3 = "";
+    realAnswer = "";
   }
 
 
@@ -62,6 +65,9 @@ void quizBox() {
   text(answer1, width/2, 600);
   text(answer2, width/2, 670);
   text(answer3, width/2, 740);
+  
+  textSize(45);
+  text(realAnswer, width/2, 800);
 }
 
 void questions() {
@@ -71,6 +77,11 @@ void questions() {
     answer1 = "1. Sven";
     answer2 = "X. Rudolf";
     answer3 = "2. Lars";
+
+    
+    if (millis() > answerTimer){
+      realAnswer = "ANSWER: x. Rudolf";
+    }
   }
 
   if (clickedSnowball[1]) {
@@ -138,7 +149,7 @@ void questions() {
 
     date = "9th of December";
 
-    question = "What date do Lucia occur?";
+    question = "At what date does Lucia occur?";
     answer1 = "1. 13th December";
     answer2 = "X. 16th December";
     answer3 = "2. 18th December";
@@ -178,7 +189,7 @@ void questions() {
 
     date = "13th of December";
 
-    question = "There are 365 days in a year.\nWhat number is Christmas day?";
+    question = "On what date is Christmas day?";
     answer1 = "1. 23rd";
     answer2 = "X. 24th";
     answer3 = "2. 25th";
@@ -252,7 +263,7 @@ void questions() {
 
     date = "21th of December";
 
-    question = "What Swedish group sang the song Happy New Year";
+    question = "Which Swedish music group sang the song \"Happy New Year\"";
     answer1 = "1. Europe";
     answer2 = "X. ABBA";
     answer3 = "2. Roxette";
@@ -272,10 +283,10 @@ void questions() {
 
     date = "23rd of December";
 
-    question = "Who brought the gifts before Santa?";
+    question = "Before santa, who brought us the gifts?";
     answer1 = "1. Christmas Goat";
     answer2 = "X. Christmas Reindeer";
-    answer3 = "2. Christmas OWL";
+    answer3 = "2. Christmas Owl";
   }
 
   if (clickedSnowball[23]) {

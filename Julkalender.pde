@@ -24,5 +24,5 @@ void draw() {
   automaticSnowball();
   quizBox();
   
-  println(minute()%11 + " " +second());
+  println(millis() + " " + answerTimer);
 }
