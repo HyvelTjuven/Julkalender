@@ -196,7 +196,8 @@ void questions() {
   }
 
   if (clickedSnowball[12]) {
-
+drawLucia(width/5, height/3.7);
+    drawThirdAdvent(width/4.2, height/2);
     date = "13th of December";
 
     question = "On what date is Christmas day?";
@@ -260,6 +261,7 @@ void questions() {
     answer3 = "2. 25";
   }
   if (clickedSnowball[19]) {
+    drawFourthAdvent(width/4.5, height/3);
 
     date = "20th of December";
 
@@ -300,6 +302,8 @@ void questions() {
   }
 
   if (clickedSnowball[23]) {
+        drawSanta(width/3.2, height/2.3);
+
     date = "24th of December";
 
     question = "MERRY CHRISTMAS!";
@@ -319,7 +323,22 @@ void drawSecondAdvent(int xPos, int yPos) {
   image(secondAdvent, xPos, yPos);
 }
 
-void dSecondAdvent(int xPos, int yPos) {
-  secondAdvent = loadImage("ljus2.png");
-  image(secondAdvent, xPos, yPos);
+void drawThirdAdvent( float xPos, float yPos) {
+  thirdAdvent = loadImage("ljus3.png");
+  image(thirdAdvent, xPos, yPos);
+}
+
+void drawLucia(int xPos, float yPos) {
+  lucia = loadImage("lucia.png");
+  image(lucia, xPos, yPos);
+}
+
+void drawFourthAdvent( float xPos, float yPos) {
+  fourthAdvent = loadImage("Ljus4.png");
+  image(fourthAdvent, xPos, yPos);
+}
+
+void drawSanta( float xPos, float yPos) {
+  santa = loadImage("Jultomte.png");
+  image(santa, xPos, yPos);
 }
