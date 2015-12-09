@@ -1,3 +1,10 @@
+PImage firstAdvent;
+PImage secondAdvent;
+PImage thirdAdvent;
+PImage fourthAdvent;
+PImage lucia;
+PImage santa;
+
 float xPos = 2000;
 float yPos = 2000;
 
@@ -72,6 +79,8 @@ void quizBox() {
 
 void questions() {
   if (clickedSnowball[0]) {
+    drawFirstAdvent(width/4, height/3);
+
     date = "1st of December";
     question = "Sunes Jul aired as a Christmas calendar on SVT 1991,\nwhat is the name of Sunes father?";
     answer1 = "1. Sven";
@@ -120,6 +129,7 @@ void questions() {
   }
 
   if (clickedSnowball[5]) {
+    drawSecondAdvent(width/4, height/3);
 
     date = "6th of December";
     question = "What was the name of Jesus grandmother?";
@@ -290,7 +300,6 @@ void questions() {
   }
 
   if (clickedSnowball[23]) {
-
     date = "24th of December";
 
     question = "MERRY CHRISTMAS!";
@@ -298,4 +307,19 @@ void questions() {
     answer2 = "";
     answer3 = "";
   }
+}
+
+void drawFirstAdvent(int xPos, int yPos) {
+  firstAdvent = loadImage("ljus1.png");
+  image(firstAdvent, xPos, yPos);
+}
+
+void drawSecondAdvent(int xPos, int yPos) {
+  secondAdvent = loadImage("ljus2.png");
+  image(secondAdvent, xPos, yPos);
+}
+
+void dSecondAdvent(int xPos, int yPos) {
+  secondAdvent = loadImage("ljus2.png");
+  image(secondAdvent, xPos, yPos);
 }
