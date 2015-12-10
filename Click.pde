@@ -188,6 +188,7 @@ void mouseClicked() {
 
   //DECEMBER 24
   if (mouseX > 680+300 && mouseY > 245+175 && mouseX < 680+300+135 && mouseY < 245+175+135) {
+    answerTimer = millis() + 30000;
     clickedSnowball[23] = true;
   } else {
     clickedSnowball[23] = false;

@@ -116,7 +116,7 @@ void questions() {
     }
 
     if (millis() > answerTimer + 30000) {
-      clickedSnowball[0] = false;
+      clickedSnowball[1] = false;
     }
   }
 
@@ -130,6 +130,10 @@ void questions() {
 
     if (millis() > answerTimer) {
       realAnswer = "Answer:\nTusen år till julafton";
+    }
+
+    if (millis() > answerTimer + 30000) {
+      clickedSnowball[2] = false;
     }
   }
 
@@ -146,7 +150,7 @@ void questions() {
     }
 
     if (millis() > answerTimer + 30000) {
-      clickedSnowball[0] = false;
+      clickedSnowball[3] = false;
     }
   }
 
@@ -163,7 +167,7 @@ void questions() {
     }
 
     if (millis() > answerTimer + 30000) {
-      clickedSnowball[0] = false;
+      clickedSnowball[4] = false;
     }
   }
 
@@ -180,7 +184,7 @@ void questions() {
     }
 
     if (millis() > answerTimer + 30000) {
-      clickedSnowball[0] = false;
+      clickedSnowball[5] = false;
     }
   }
 
@@ -197,7 +201,7 @@ void questions() {
     }
 
     if (millis() > answerTimer + 30000) {
-      clickedSnowball[0] = false;
+      clickedSnowball[6] = false;
     }
   }
 
@@ -213,7 +217,7 @@ void questions() {
     }
 
     if (millis() > answerTimer + 30000) {
-      clickedSnowball[0] = false;
+      clickedSnowball[7] = false;
     }
   }
 
@@ -228,10 +232,6 @@ void questions() {
 
     if (millis() > answerTimer) {
       realAnswer = "Answer:\n13th of December";
-    }
-
-    if (millis() > answerTimer + 30000) {
-      clickedSnowball[0] = false;
     }
 
     if (millis() > answerTimer + 30000) {
@@ -253,7 +253,7 @@ void questions() {
     }
 
     if (millis() > answerTimer + 30000) {
-      clickedSnowball[0] = false;
+      clickedSnowball[9] = false;
     }
   }
 
@@ -271,7 +271,7 @@ void questions() {
     }
 
     if (millis() > answerTimer + 30000) {
-      clickedSnowball[0] = false;
+      clickedSnowball[10] = false;
     }
   }
 
@@ -289,7 +289,7 @@ void questions() {
     }
 
     if (millis() > answerTimer + 30000) {
-      clickedSnowball[0] = false;
+      clickedSnowball[11] = false;
     }
   }
 
@@ -309,7 +309,7 @@ void questions() {
     }
 
     if (millis() > answerTimer + 30000) {
-      clickedSnowball[0] = false;
+      clickedSnowball[12] = false;
     }
   }
 
@@ -327,7 +327,7 @@ void questions() {
     }
 
     if (millis() > answerTimer + 30000) {
-      clickedSnowball[0] = false;
+      clickedSnowball[13] = false;
     }
   }
   if (clickedSnowball[14]) {
@@ -344,9 +344,10 @@ void questions() {
     }
 
     if (millis() > answerTimer + 30000) {
-      clickedSnowball[0] = false;
+      clickedSnowball[14] = false;
     }
   }
+
   if (clickedSnowball[15]) {
 
     date = "16th of December";
@@ -361,7 +362,7 @@ void questions() {
     }
 
     if (millis() > answerTimer + 30000) {
-      clickedSnowball[0] = false;
+      clickedSnowball[15] = false;
     }
   }
 
@@ -379,7 +380,7 @@ void questions() {
     }
 
     if (millis() > answerTimer + 30000) {
-      clickedSnowball[0] = false;
+      clickedSnowball[16] = false;
     }
   }
   if (clickedSnowball[17]) {
@@ -396,7 +397,7 @@ void questions() {
     }
 
     if (millis() > answerTimer + 30000) {
-      clickedSnowball[0] = false;
+      clickedSnowball[17] = false;
     }
   }
 
@@ -414,7 +415,7 @@ void questions() {
     }
 
     if (millis() > answerTimer + 30000) {
-      clickedSnowball[0] = false;
+      clickedSnowball[18] = false;
     }
   }
 
@@ -433,7 +434,7 @@ void questions() {
     }
 
     if (millis() > answerTimer + 30000) {
-      clickedSnowball[0] = false;
+      clickedSnowball[19] = false;
     }
   }
 
@@ -451,7 +452,7 @@ void questions() {
     }
 
     if (millis() > answerTimer + 30000) {
-      clickedSnowball[0] = false;
+      clickedSnowball[20] = false;
     }
   }
 
@@ -469,7 +470,7 @@ void questions() {
     }
 
     if (millis() > answerTimer + 30000) {
-      clickedSnowball[0] = false;
+      clickedSnowball[21] = false;
     }
   }
 
@@ -487,13 +488,11 @@ void questions() {
     }
 
     if (millis() > answerTimer + 30000) {
-      clickedSnowball[0] = false;
+      clickedSnowball[22] = false;
     }
   }
 
   if (clickedSnowball[23]) {
-    drawSanta(width/3.1, height/2.3);
-
     date = "24th of December";
 
     question = "Merry christmas!";
@@ -501,8 +500,12 @@ void questions() {
     answer2 = "";
     answer3 = "";
 
+    if (millis() > answerTimer) {
+      drawSanta(width/3.1, height/2.3);
+    }
+
     if (millis() > answerTimer + 30000) {
-      clickedSnowball[0] = false;
+      clickedSnowball[23] = false;
     }
   }
 }
