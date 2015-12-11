@@ -1,7 +1,7 @@
 PImage myBackground;
 
-PFont font;
-PFont questionFont;
+PFont font; // Used to write out todays date as well as the countdown for todays question
+PFont questionFont; // Used for the quiz itself as well as to number the snowballs
 
 void setup() {
   fullScreen(P2D);

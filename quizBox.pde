@@ -1,32 +1,35 @@
-PImage firstAdvent;
+// Some hatches contains images that represent the date
 PImage secondAdvent;
 PImage thirdAdvent;
 PImage fourthAdvent;
 PImage lucia;
 PImage santa;
 
+// Position of the quizbox, by default it's hidden off screen
 float xPos = 2000;
 float yPos = 2000;
 
+// Strings used in the quiz box
 String date;
 String question;
 String answer1;
 String answer2;
 String answer3;
 
-String realAnswer;
+String realAnswer; // The real answer that gets revealed after 30 seconds
 
-int answerTimer;
-int timerLength;
+int answerTimer; // used to time when the answer should be revealed
+int timerLength; // used to represent how long until it gets revealed
 
-
-Boolean showQuiz;
+Boolean showQuiz; // Boolean that shows and hides the quiz depending on if it's true or false
 
 void quizBox() {  
 
   fill(255, 200);
   rectMode(CENTER);
-  rect(xPos, yPos, 1200, 700, 20);
+  rect(xPos, yPos, 1200, 700, 20); // size of the quizbox
+  
+  // If statement that checks if any snowball has been clicked and if it has is shows the corresponding question
 
   if (clickedSnowball[0] || clickedSnowball[1] || clickedSnowball[2] || clickedSnowball[3] || clickedSnowball[4] || 
     clickedSnowball[5] || clickedSnowball[6] || clickedSnowball[7] || clickedSnowball[8] || clickedSnowball[9] || 
@@ -39,6 +42,11 @@ void quizBox() {
     showQuiz = false;
   }
 
+  /*
+  If showQuiz is true, it places the quizbox in the center of the screen and starts the visible timer,
+  if it's false if hides the quizbox off screen and replaces the question and answers with empty strings
+  */
+  
   if (showQuiz == true) {
 
     xPos = width/2;
@@ -65,11 +73,9 @@ void quizBox() {
     realAnswer = "";
   }
 
-
-  textAlign(CENTER);
+  // Position of all text within the quizbox
   textFont(questionFont);
   fill(50);
-
 
   textSize(30);  
   text(date, width/1.4, 350);
@@ -87,6 +93,12 @@ void quizBox() {
 }
 
 void questions() {
+  
+  /*
+  If a snowball is clicked if replaces the Strings with the corresponding question and answers,
+  it also shows the real answer after 30 seconds and after another 30 seconds the quiz is closed back down
+  */
+  
   if (clickedSnowball[0]) {
 
     date = "1st of December";
@@ -508,11 +520,6 @@ void questions() {
       clickedSnowball[23] = false;
     }
   }
-}
-
-void drawFirstAdvent(int xPos, int yPos) {
-  firstAdvent = loadImage("ljus1.png");
-  image(firstAdvent, xPos, yPos);
 }
 
 void drawSecondAdvent(float xPos, float yPos) {

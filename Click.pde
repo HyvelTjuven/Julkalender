@@ -1,6 +1,11 @@
-boolean[] clickedSnowball = new boolean[24];
+boolean[] clickedSnowball = new boolean[24]; // One boolean per hatch
 
 void mouseClicked() {
+  
+  /*
+  If statements that registers when you click on a snowball using booleans, it also sets a
+  timer for when the answer should be shown
+  */ 
 
   // DECEMBER 1
   if (mouseX > 250+300 && mouseY > 750+175 && mouseX < 250+300+135 && mouseY < 750+175+125) {
