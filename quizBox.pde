@@ -263,7 +263,7 @@ void questions() {
 
     question = "What is the second line of the song\n\"I'm dreaming of a white Christmas\"?";
     answer1 = "1. \"Just like the ones I used to know\"";
-    answer2 = "X. \"Just like the ones I used to go\"";
+    answer2 = "X. \"Just like the ones I'm dreaming of\"";
     answer3 = "2. \"Just like the ones I used to have\"";
 
     if (millis() > answerTimer) {

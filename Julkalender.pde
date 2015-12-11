@@ -4,7 +4,7 @@ PFont font;
 PFont questionFont;
 
 void setup() {
-  fullScreen();
+  fullScreen(P2D);
   //size(1920, 1080);
   myBackground = loadImage("Background1.jpg");
   setupSnow();
